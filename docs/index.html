@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>英語クイズ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <!-- ホーム -->
+    <section id="home">
+      <h1>英語クイズ</h1>
+      <div id="warnings"></div>
+
+      <div class="stats-row">
+        <div class="stat"><span id="streak">0</span><small>日連続</small></div>
+        <div class="stat"><span id="total-correct">0</span><small>正解数</small></div>
+      </div>
+
+      <label>種類
+        <select id="type-select">
+          <option value="vocab">単語</option>
+          <option value="grammar">文法</option>
+          <option value="order">並べ替え</option>
+          <option value="mix">ミックス</option>
+        </select>
+      </label>
+      <label>トピック
+        <select id="topic-select"></select>
+      </label>
+      <button id="start-btn" class="primary">スタート（10問）</button>
+      <button id="review-btn">まちがえた問題（<span id="review-count">0</span>問）</button>
+
+      <h2>トピック別の正答率</h2>
+      <table id="topic-stats"></table>
+
+      <button id="reset-btn" class="danger">記録をリセット</button>
+    </section>
+
+    <!-- クイズ -->
+    <section id="quiz" hidden>
+      <div class="quiz-head">
+        <span id="progress"></span>
+        <button id="quit-btn" class="link">やめる</button>
+      </div>
+      <p id="prompt-label" class="muted"></p>
+      <p id="prompt" class="prompt"></p>
+      <div id="answer-area"></div>
+      <div id="feedback" hidden>
+        <p id="feedback-result"></p>
+        <p id="feedback-expl" class="muted"></p>
+        <button id="next-btn" class="primary">次へ</button>
+      </div>
+    </section>
+
+    <!-- 結果 -->
+    <section id="result" hidden>
+      <h1>結果</h1>
+      <p class="score"><span id="score"></span></p>
+      <button id="again-btn" class="primary">もう一度</button>
+      <button id="home-btn">ホームへ</button>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
