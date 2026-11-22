@@ -1,131 +1,84 @@
 ﻿type,topic,question,choices,answer,explanation
-vocab_ej,動詞,explain,説明する|発明する|約束する|想像する,説明する,explain = 説明する。explain the rule（ルールを説明する）
-vocab_ej,動詞,decide,決める|集める|比べる|守る,決める,decide = 決める。decide to 〜（〜することに決める）
-vocab_ej,動詞,borrow,借りる|貸す|返す|運ぶ,借りる,borrow = 借りる。「貸す」は lend。
-vocab_ej,動詞,invent,発明する|招待する|紹介する|含む,発明する,invent = 発明する。invention（発明）
-vocab_ej,動詞,protect,守る|育てる|続ける|変える,守る,protect = 守る。protect the environment（環境を守る）
-vocab_ej,動詞,introduce,紹介する|生産する|減らす|勧める,紹介する,introduce = 紹介する。introduce myself（自己紹介する）
-vocab_ej,動詞,receive,受け取る|送る|配る|断る,受け取る,receive = 受け取る。「送る」は send。
-vocab_ej,動詞,remember,覚えている|忘れる|思いつく|気づく,覚えている,remember = 覚えている・思い出す。「忘れる」は forget。
-vocab_ej,名詞,environment,環境|経験|政府|文化,環境,environment = 環境。入試の長文で頻出。
-vocab_ej,名詞,experience,経験|実験|交換|期待,経験,experience = 経験。「実験」は experiment。
-vocab_ej,名詞,future,未来|過去|現在|歴史,未来,future = 未来。「過去」は past。
-vocab_ej,名詞,government,政府|会社|地域|社会,政府,government = 政府。
-vocab_ej,名詞,language,言語|文化|伝統|知識,言語,language = 言語・ことば。
-vocab_ej,名詞,information,情報|教育|経済|技術,情報,information = 情報。数えられない名詞なので an や -s をつけない。
-vocab_ej,名詞,tradition,伝統|翻訳|行事|発表,伝統,tradition = 伝統。traditional（伝統的な）
-vocab_ej,名詞,opinion,意見|理由|方法|結果,意見,opinion = 意見。in my opinion（私の意見では）
-vocab_ej,名詞,message,伝言|記事|質問|地図,伝言,message = 伝言・メッセージ。leave a message（伝言を残す）
-vocab_ej,形容詞・副詞,important,大切な|便利な|危険な|有名な,大切な,important = 大切な・重要な。
-vocab_ej,形容詞・副詞,dangerous,危険な|安全な|必要な|簡単な,危険な,dangerous = 危険な。danger（危険）
-vocab_ej,形容詞・副詞,necessary,必要な|可能な|特別な|普通の,必要な,necessary = 必要な。
-vocab_ej,形容詞・副詞,popular,人気のある|ていねいな|正直な|親切な,人気のある,popular = 人気のある。
-vocab_ej,形容詞・副詞,difficult,難しい|易しい|退屈な|貴重な,難しい,difficult = 難しい。「易しい」は easy。
-vocab_ej,形容詞・副詞,already,すでに・もう|まだ|いつか|ついに,すでに・もう,already = すでに・もう（肯定文で使う）。
-vocab_ej,形容詞・副詞,especially,特に|ついに|たぶん|すぐに,特に,especially = 特に。
-vocab_ej,形容詞・副詞,abroad,海外へ・海外で|家で|近くに|上の階に,海外へ・海外で,abroad = 海外へ・海外で。go abroad（海外に行く）。to はつけない。
-vocab_je,動詞,〜を運ぶ,,carry,carry = 運ぶ。過去形は carried。
-vocab_je,動詞,〜を貸す,,lend,lend = 貸す。「借りる」は borrow。過去形は lent。
-vocab_je,動詞,〜を忘れる,,forget,forget = 忘れる。forget - forgot - forgotten
-vocab_je,動詞,〜を理解する,,understand,understand = 理解する。understand - understood - understood
-vocab_je,動詞,〜を選ぶ,,choose,choose = 選ぶ。choose - chose - chosen
-vocab_je,動詞,到着する,,arrive,arrive = 到着する。arrive at / in 〜（〜に着く）
-vocab_je,動詞,〜を続ける,,continue,continue = 続ける。
-vocab_je,動詞,〜を育てる,,raise/grow,raise（子どもや動物を育てる）、grow（植物を育てる）。
-vocab_je,名詞,図書館,,library,library = 図書館。つづりに注意：l-i-b-r-a-r-y
-vocab_je,名詞,天気,,weather,weather = 天気。whether（〜かどうか）とつづりが違う。
-vocab_je,名詞,病院,,hospital,hospital = 病院。
-vocab_je,名詞,地震,,earthquake,earthquake = 地震。earth（地球）+ quake（揺れる）
-vocab_je,名詞,理由,,reason,reason = 理由。
-vocab_je,名詞,文化,,culture,culture = 文化。
-vocab_je,名詞,自然,,nature,nature = 自然。natural（自然の）
-vocab_je,名詞,辞書,,dictionary,dictionary = 辞書。
-vocab_je,名詞,生徒・学生,,student,student = 生徒・学生。
-vocab_je,形容詞・副詞,美しい,,beautiful,beautiful = 美しい。つづりに注意：b-e-a-u-t-i-f-u-l
-vocab_je,形容詞・副詞,便利な,,convenient,convenient = 便利な。
-vocab_je,形容詞・副詞,有名な,,famous,famous = 有名な。be famous for 〜（〜で有名だ）
-vocab_je,形容詞・副詞,違った・異なる,,different,different = 違った。be different from 〜（〜と違う）
-vocab_je,形容詞・副詞,ひとりで,,alone,alone = ひとりで。
-vocab_je,形容詞・副詞,ついに・最後に,,finally,finally = ついに・最後に。at last も同じ意味。
-vocab_je,形容詞・副詞,たぶん・もしかすると,,maybe/perhaps,maybe / perhaps = たぶん。
-vocab_je,形容詞・副詞,静かな,,quiet,quiet = 静かな。quite（かなり）とつづりが違う。
-grammar,現在完了,I ( ) in Tokyo for five years.,live|lived|have lived|am living,have lived,「5年間ずっと住んでいる」は現在完了の継続。have + 過去分詞。
-grammar,現在完了,Have you ever ( ) to Kyoto?,go|went|been|going,been,「〜に行ったことがある」は have been to 〜。
-grammar,現在完了,She has ( ) finished her homework.,already|yet|ever|ago,already,肯定文の「もう〜した」は already。yet は疑問文・否定文で使う。
-grammar,現在完了,I haven't eaten lunch ( ).,already|yet|ever|since,yet,否定文の「まだ〜していない」は yet。
-grammar,現在完了,We have known each other ( ) 2020.,for|since|from|at,since,「〜以来」と始まりの時点を表すのは since。期間（〜の間）は for。
-grammar,現在完了,How ( ) have you lived here?,long|many|much|often,long,期間をたずねるときは How long。
-grammar,現在完了,I have been ( ) TV since this morning.,watch|watched|watching|to watch,watching,現在完了進行形：have been + -ing（ずっと〜している）。
-grammar,受け身,This book was ( ) by Natsume Soseki.,write|wrote|written|writing,written,受け身は be動詞 + 過去分詞。write - wrote - written
-grammar,受け身,English is ( ) in many countries.,speak|spoke|spoken|speaking,spoken,「話されている」は受け身。speak - spoke - spoken
-grammar,受け身,The window ( ) broken yesterday.,is|was|has|did,was,yesterday があるので過去の受け身 was + 過去分詞。
-grammar,受け身,Was this picture ( ) by your father?,take|took|taken|taking,taken,受け身の疑問文。take - took - taken
-grammar,受け身,The mountain is covered ( ) snow.,by|with|of|in,with,be covered with 〜（〜でおおわれている）。by 以外を使う受け身の決まり文句。
-grammar,受け身,I am interested ( ) Japanese history.,at|in|with|on,in,be interested in 〜（〜に興味がある）。
-grammar,不定詞,I want ( ) a doctor.,be|to be|being|been,to be,want to 〜（〜したい）。「医者になりたい」は want to be a doctor。
-grammar,不定詞,I went to the library ( ) some books.,borrow|to borrow|borrowing|borrowed,to borrow,「〜するために」は to + 動詞の原形（副詞的用法）。
-grammar,不定詞,I have a lot of homework ( ) today.,do|to do|doing|done,to do,「するべき宿題」は名詞のあとに to + 原形（形容詞的用法）。
-grammar,不定詞,It is important for us ( ) the environment.,protect|to protect|protecting|protected,to protect,It is 〜 for 人 to …（人が…することは〜だ）。
-grammar,不定詞,I don't know what ( ) next.,do|to do|doing|done,to do,疑問詞 + to 不定詞。what to do（何をすべきか）。
-grammar,不定詞,My mother told me ( ) my room.,clean|to clean|cleaning|cleaned,to clean,tell 人 to …（人に…するように言う）。
-grammar,動名詞,I enjoyed ( ) with my friends.,talk|to talk|talking|talked,talking,enjoy のあとは動名詞（-ing）だけ。to 不定詞は使えない。
-grammar,動名詞,He finished ( ) the letter.,write|to write|writing|written,writing,finish のあとは動名詞（-ing）だけ。
-grammar,動名詞,Thank you for ( ) me.,help|to help|helping|helped,helping,前置詞（for）のあとの動詞は動名詞にする。
-grammar,動名詞,( ) English is fun.,Speak|Speaking|Spoke|Spoken,Speaking,主語「英語を話すこと」は動名詞 Speaking。
-grammar,動名詞,How about ( ) tennis after school?,play|to play|playing|played,playing,How about -ing?（〜するのはどうですか）。about は前置詞なので動名詞。
-grammar,分詞,Look at the ( ) baby.,sleep|slept|sleeping|to sleep,sleeping,「眠っている赤ちゃん」は現在分詞 sleeping が名詞を修飾。
-grammar,分詞,The boy ( ) soccer over there is my brother.,play|plays|playing|played,playing,「サッカーをしている少年」。現在分詞のかたまりがうしろから名詞を修飾。
-grammar,分詞,This is a car ( ) in Germany.,make|made|making|to make,made,「ドイツで作られた車」は過去分詞 made がうしろから修飾。
-grammar,分詞,I have a friend ( ) Ken.,call|called|calling|to call,called,「ケンと呼ばれる友達」は過去分詞 called。
-grammar,分詞,The language ( ) in Brazil is Portuguese.,speak|spoke|speaking|spoken,spoken,「ブラジルで話されている言語」は過去分詞 spoken。
-grammar,分詞,Who is the girl ( ) under the tree?,stand|stood|standing|to stand,standing,「木の下に立っている少女」は現在分詞 standing。
-grammar,関係代名詞,I have a friend ( ) lives in Canada.,who|which|whose|what,who,先行詞が人（a friend）で、あとに動詞が続く主格は who。
-grammar,関係代名詞,This is the bus ( ) goes to the station.,who|which|where|what,which,先行詞が物（the bus）の主格は which（that も可）。
-grammar,関係代名詞,The cake ( ) my mother made was delicious.,who|that|what|where,that,先行詞が物の目的格は that / which。省略もできる。
-grammar,関係代名詞,He is the man ( ) I met yesterday.,which|that|what|whose,that,先行詞が人の目的格は that（who も可）。省略もできる。
-grammar,関係代名詞,The man ( ) is talking with Yuki is our teacher.,who|which|what|whose,who,先行詞が人（The man）の主格は who。
-grammar,関係代名詞,This is the most interesting book ( ) I have ever read.,who|that|what|where,that,先行詞に最上級がつくときは that がよく使われる。
-grammar,関係代名詞,The pictures ( ) were taken by Ken are beautiful.,who|which|what|whose,which,先行詞が物（The pictures）の主格は which。
-grammar,間接疑問,I don't know where ( ).,he lives|does he live|lives he|he does live,he lives,間接疑問は 疑問詞 + 主語 + 動詞 の順。does は使わない。
-grammar,間接疑問,Do you know what time ( )?,is it|it is|does it|it does,it is,間接疑問は 疑問詞 + 主語 + 動詞。what time it is。
-grammar,間接疑問,Tell me what ( ) yesterday.,did you buy|you bought|you buy|bought you,you bought,間接疑問では did を使わず、動詞を過去形にする。
-grammar,間接疑問,Can you tell me ( ) the station is?,where|what|who|which,where,「駅がどこにあるか」は where the station is。
-grammar,間接疑問,I wonder who ( ) this picture.,painted|did paint|does paint|painting,painted,疑問詞 who が主語のときは、そのまま who + 動詞 の順。
-grammar,仮定法,"If I ( ) a bird, I could fly.",am|was|were|be,were,仮定法過去では be動詞は主語に関係なく were が基本。
-grammar,仮定法,"If I had a lot of money, I ( ) buy a big house.",will|would|can|am,would,"仮定法：If + 過去形 〜, 主語 + would + 原形。"
-grammar,仮定法,I wish I ( ) play the piano.,can|could|will|am,could,I wish + 過去形（〜ならいいのに）。can → could。
-grammar,仮定法,I wish I ( ) a brother.,have|had|has|having,had,I wish + 過去形。現実と違う願いを表す。
-grammar,比較,Tom is ( ) than Ken.,tall|taller|tallest|more tall,taller,than があるので比較級 taller。
-grammar,比較,This is the ( ) beautiful flower in this garden.,more|most|much|very,most,長い形容詞の最上級は the most + 形容詞。
-grammar,比較,I can run as ( ) as my brother.,fast|faster|fastest|more fast,fast,as + 原級 + as（〜と同じくらい）。
-grammar,比較,"Which do you like ( ), dogs or cats?",good|well|better|best,better,2つを比べて「どちらがより好きか」は like 〜 better。
-order,現在完了,私は3年間ずっとここに住んでいます。,,I have lived here for three years.,継続の現在完了：have + 過去分詞 + for 期間。
-order,現在完了,あなたは今までに富士山に登ったことがありますか。,,Have you ever climbed Mt. Fuji?,経験の疑問文：Have you ever + 過去分詞 〜?
-order,現在完了,私はまだ宿題を終えていません。,,I have not finished my homework yet.,完了の否定文：have not + 過去分詞 〜 yet。
-order,現在完了,彼女は今朝からずっと勉強しています。,,She has been studying since this morning.,現在完了進行形：has been + -ing + since 〜。
-order,受け身,この寺は約400年前に建てられました。,,This temple was built about 400 years ago.,過去の受け身：was + 過去分詞。
-order,受け身,その歌は多くの人に愛されています。,,The song is loved by many people.,受け身：is + 過去分詞 + by 〜。
-order,受け身,この手紙は英語で書かれています。,,This letter is written in English.,受け身：is written in 〜（〜で書かれている）。
-order,不定詞,私は英語を勉強するために早く起きました。,,I got up early to study English.,目的を表す to 不定詞（〜するために）。
-order,不定詞,彼は何か温かい飲み物がほしい。,,He wants something hot to drink.,something + 形容詞 + to 不定詞 の順。
-order,不定詞,英語を話すことは私にとって難しい。,,It is difficult for me to speak English.,It is 〜 for 人 to …
-order,不定詞,私はピアノの弾き方を知りません。,,I don't know how to play the piano.,how to 〜（〜のしかた）。
-order,不定詞,母は私に部屋をそうじするように頼みました。,,My mother asked me to clean my room.,ask 人 to …（人に…するように頼む）。
-order,動名詞,私は本を読むことが好きです。,,I like reading books.,動名詞 reading が like の目的語。
-order,動名詞,雨がやみました。,,It stopped raining.,stop -ing（〜するのをやめる）。
-order,動名詞,彼はサッカーをするのが得意です。,,He is good at playing soccer.,be good at -ing（〜するのが得意だ）。
-order,分詞,あそこで走っている少年は私の弟です。,,The boy running over there is my brother.,現在分詞のかたまりがうしろから The boy を修飾。
-order,分詞,これは日本で作られたカメラです。,,This is a camera made in Japan.,過去分詞 made in Japan がうしろから修飾。
-order,分詞,私は英語で書かれた本を持っています。,,I have a book written in English.,過去分詞 written in English がうしろから修飾。
-order,関係代名詞,私にはフランスに住んでいるおじがいます。,,I have an uncle who lives in France.,主格の関係代名詞 who。
-order,関係代名詞,これは私が昨日買った本です。,,This is the book I bought yesterday.,目的格の関係代名詞は省略できる（the book that I bought の that を省略）。
-order,関係代名詞,彼女が作ったケーキはおいしかった。,,The cake she made was delicious.,The cake (that) she made がひとつの主語。
-order,関係代名詞,京都は多くの人が訪れる都市です。,,Kyoto is a city which many people visit.,目的格の関係代名詞 which。
-order,間接疑問,私は彼がどこに住んでいるか知りません。,,I don't know where he lives.,間接疑問：疑問詞 + 主語 + 動詞。
-order,間接疑問,駅がどこにあるか教えてくれませんか。,,Could you tell me where the station is?,間接疑問：where the station is。
-order,間接疑問,あなたは彼女が何歳か知っていますか。,,Do you know how old she is?,間接疑問：how old she is。
-order,仮定法,もし私があなたなら、そんなことはしないでしょう。,,"If I were you, I would not do that.","仮定法：If I were 〜, I would 〜。"
-order,仮定法,もっと時間があればいいのに。,,I wish I had more time.,I wish + 過去形。
-order,仮定法,もし私が車を持っていたら、あなたを家まで送れるのに。,,"If I had a car, I could take you home.","仮定法：If + 過去形, 主語 + could + 原形。"
-order,比較,これはこの町でいちばん高い建物です。,,This is the tallest building in this town.,最上級：the + -est + in 〜。
-order,比較,この本はあの本よりおもしろい。,,This book is more interesting than that one.,長い形容詞の比較級：more + 形容詞 + than。
+error,誤文訂正,"If it 【A will rain】 tomorrow, we 【B will put off】 【C the picnic】 【D until】 next Sunday.",A will rain|B will put off|C the picnic|D until,A will rain,A → rains。時・条件を表す副詞節（if / when など）の中では、未来のことでも現在形を使う。
+error,誤文訂正,She 【A is】 【B enough old】 【C to】 【D travel】 abroad alone.,A is|B enough old|C to|D travel,B enough old,B → old enough。enough は形容詞・副詞の「後ろ」に置く：形容詞 + enough to 〜
+error,誤文訂正,I 【A saw】 a boy 【B to cross】 the street 【C while】 the light 【D was】 red.,A saw|B to cross|C while|D was,B to cross,B → crossing（または cross）。知覚動詞 see + O + 〜ing / 原形。to はつけない。
+error,誤文訂正,My mother 【A didn't】 let me 【B to go】 out 【C after】 dark 【D last night】.,A didn't|B to go|C after|D last night,B to go,B → go。使役動詞 let + O + 動詞の原形。to はつけない。
+error,誤文訂正,The question was 【A such】 difficult 【B that】 【C none of us】 【D could answer】 it.,A such|B that|C none of us|D could answer,A such,A → so。so + 形容詞 + that 〜（とても…なので〜）。such は such a difficult question のように名詞が続くとき。
+error,誤文訂正,"【A Because】 the heavy snow, the trains 【B were】 【C delayed】 【D for】 two hours.",A Because|B were|C delayed|D for,A Because,A → Because of。because の後ろは「文（主語＋動詞）」、because of の後ろは「名詞」。
+error,誤文訂正,"【A During】 I was staying in Kyoto, I 【B visited】 【C a lot of】 temples 【D with】 my aunt.",A During|B visited|C a lot of|D with,A During,A → While。during は前置詞（後ろに名詞）、while は接続詞（後ろに文）。
+error,誤文訂正,This is a picture 【A painting】 【B by】 a famous artist 【C who】 【D lived】 in France.,A painting|B by|C who|D lived,A painting,A → painted。「〜によって描かれた絵」は過去分詞の後置修飾：a picture painted by 〜
+error,誤文訂正,"Tom 【A has gone】 to Canada 【B three times】, so he knows 【C a lot about】 【D the country】.",A has gone|B three times|C a lot about|D the country,A has gone,A → has been。「〜に行ったことがある（経験）」は have been to。have gone to は「行ってしまって今ここにいない」。
+error,誤文訂正,I 【A am looking forward】 to 【B see】 you 【C again】 【D soon】.,A am looking forward|B see|C again|D soon,B see,B → seeing。look forward to の to は前置詞なので、後ろは動名詞（〜ing）。
+error,誤文訂正,The number of tourists 【A who visit】 Japan 【B are】 【C increasing】 【D every year】.,A who visit|B are|C increasing|D every year,B are,B → is。主語は The number（数）なので単数扱い。A number of 〜（たくさんの〜）なら複数扱い。
+error,誤文訂正,My father 【A insisted】 that I 【B went】 to the doctor 【C at once】 【D because】 I had a fever.,A insisted|B went|C at once|D because,B went,B → (should) go。insist / suggest / demand that 〜 で「〜すべきだと要求する」ときは、that 節の動詞は原形（または should + 原形）。
+error,誤文訂正,【A Hardly】 had I 【B arrived】 at the station 【C than】 the train 【D left】.,A Hardly|B arrived|C than|D left,C than,C → when（または before）。Hardly had S 過去分詞 when 〜（〜するとすぐに…）。than を使うのは No sooner … than。
+error,誤文訂正,"It is 【A no use】 【B to cry】 over 【C spilt】 milk, 【D as】 the saying goes.",A no use|B to cry|C spilt|D as,B to cry,B → crying。It is no use 〜ing（〜しても無駄だ）。「覆水盆に返らず」ということわざ。
+error,誤文訂正,The climate 【A of】 Tokyo 【B is】 milder 【C than】 【D Sapporo】.,A of|B is|C than|D Sapporo,D Sapporo,D → that of Sapporo。比べているのは「東京の気候」と「札幌の気候」。同じ名詞のくり返しを that（複数なら those）で表す。
+error,誤文訂正,I don't know 【A what】 【B does】 this word 【C mean】 【D in】 English.,A what|B does|C mean|D in,B does,B → 不要（what this word means）。間接疑問は「疑問詞＋主語＋動詞」の語順で、does は使わない。
+error,誤文訂正,【A Each】 of the students 【B have】 【C their own】 tablet 【D at】 this school.,A Each|B have|C their own|D at,B have,B → has。Each of 〜 は単数扱い。
+fill,書き換え,He is too young to drive a car. ＝ He is not old (    ) to drive a car.,,enough,too 〜 to …（〜すぎて…できない）＝ not 〜 enough to …。反対の意味の形容詞を使う（young ↔ old）。
+fill,書き換え,"I don't have a smartphone, so I can't call her. ＝ If I (    ) a smartphone, I could call her.",,had,"仮定法過去：If + 主語 + 過去形, 主語 + would / could + 原形（現在の事実と反対の仮定）。"
+fill,書き換え,She started living here five years ago. ＝ She has (    ) here for five years.,,lived,現在完了（継続）：have / has + 過去分詞 + for 〜（〜の間）。
+fill,書き換え,Shall we go shopping? ＝ (    ) don't we go shopping?,,Why,Why don't we 〜? ＝ Shall we 〜? ＝ Let's 〜.（〜しませんか）
+fill,書き換え,Mt. Fuji is the highest mountain in Japan. ＝ Mt. Fuji is higher than any (    ) mountain in Japan.,,other,比較級 + than any other + 単数名詞 ＝ 最上級の意味。other を忘れやすい。
+fill,書き換え,This is the house which my grandfather built. ＝ This is the house (    ) by my grandfather.,,built,関係代名詞 → 過去分詞の後置修飾：the house built by 〜（〜によって建てられた家）。
+fill,書き換え,Nobody in my class runs as fast as Ken. ＝ Ken runs the (    ) in my class.,,fastest,Nobody … as 〜 as A ＝ A が一番〜。副詞の最上級 the fastest。
+fill,書き換え,"I was very tired, so I couldn't walk any more. ＝ I was (    ) tired to walk any more.",,too,so 〜 that 主語 can't … ＝ too 〜 to …（〜すぎて…できない）。
+fill,書き換え,Do you know her address? ＝ Do you know (    ) she lives?,,where,間接疑問：Do you know where she lives?（疑問詞＋主語＋動詞の語順）
+fill,書き換え,My uncle gave me this watch. ＝ This watch was (    ) to me by my uncle.,,given,受動態：be + 過去分詞。give - gave - given。物が主語のときは to me が必要。
+fill,書き換え,It's a pity that I can't speak French. ＝ I (    ) I could speak French.,,wish,I wish + 仮定法過去：「〜ならいいのに」（現在の事実に反する願望）。
+fill,書き換え,Remember to lock the door. ＝ Don't (    ) to lock the door.,,forget,remember to 〜（忘れずに〜する）＝ don't forget to 〜。
+fill,書き換え,Walking every day is good for your health. ＝ It is good for your health (    ) walk every day.,,to,動名詞の主語 → It is 〜 to …（形式主語 it）。
+fill,書き換え,"He said, ""I will help you."" ＝ He said that he (    ) help me.",,would,時制の一致：said（過去）に合わせて will → would。代名詞も I → he、you → me に変わる。
+fill,適語補充,Rising sea levels may ( l    ) to serious floods in the future. （〜につながる）,,lead,lead to 〜（〜につながる・〜を引き起こす）。lead - led - led
+fill,適語補充,You should take her age into ( a    ) when you choose a present. （考慮に入れる）,,account,take 〜 into account（〜を考慮に入れる）。
+fill,適語補充,"The temple was built 300 years ago, but it is still well ( p    ). （保存されている）",,preserved,be well preserved（よく保存されている）。be + well + 過去分詞の語順。
+fill,適語補充,Food prices continue to ( r    ) every year. （上がる）,,rise,rise（自動詞：上がる）rise - rose - risen。raise は他動詞（〜を上げる）なので目的語が必要。
+fill,適語補充,Everyone came to the party ( e    ) Mike. He was sick in bed. （〜を除いて）,,except,except（〜を除いて）。except for 〜 の形もある。
+fill,適語補充,Many Japanese immigrants ( f    ) discrimination in America in the early 1900s. （〜に直面した）,,faced,face（〜に直面する）。過去の話なので faced。
+grammar,比較,This bridge is about three times (    ) that one.,as long as|as longer as|long as|longer as,as long as,X times as 〜 as …（…のX倍〜）。as と as の間は原級。
+grammar,比較,This is by (    ) the most interesting book I have ever read.,far|much|very|more,far,最上級の強調は by far（ずばぬけて）。比較級の強調は much / far。
+grammar,比較,Japan's population is larger than (    ) of Germany.,that|this|it|one,that,比べるのは「日本の人口」と「ドイツの人口」。the population のくり返しを that で表す。
+grammar,倒置,Not until I lost my health (    ) how important it was.,did I realize|I realized|I did realize|realized I,did I realize,Not until 〜 が文頭に来ると倒置（did + 主語 + 原形）。「健康を失って初めてその大切さに気づいた」
+grammar,仮定法,"If I (    ) you, I would accept the offer.",were|am|will be|have been,were,仮定法過去では be 動詞は主語に関係なく were が基本。
+grammar,仮定法,"If it (    ) for your help, I would have failed the exam.",had not been|were not|is not|has not been,had not been,仮定法過去完了：If it had not been for 〜（もし〜がなかったら〔過去〕）。
+grammar,不定詞,She is the last person (    ) tell a lie.,to|who|that|for,to,the last person to 〜（最も〜しそうにない人＝決して〜しない人）。
+grammar,関係詞,"There are many old buildings in this town, some of (    ) were built 200 years ago.",which|them|that|what,which,コンマ + some of which（そのうちのいくつかは）。them だと文が2つつながらない。that はコンマの後で使えない。
+grammar,関係詞,The town (    ) I grew up has changed a lot.,where|which|what|who,where,grow up in the town → 場所を表す関係副詞 where（= in which）。
+grammar,代名詞,"I have two brothers. One lives in Osaka, and (    ) lives in Tokyo.",the other|another|other|the others,the other,2つ（2人）のうち、1つは one、残りの1つは the other。
+grammar,分詞,"(    ) from the plane, the island looked like a heart.",Seen|Seeing|To see|Saw,Seen,分詞構文。島は「見られる」側なので過去分詞 Seen（= When it was seen）。
+grammar,動名詞,Would you mind (    ) the window?,opening|to open|open|opened,opening,mind は動名詞を目的語にとる。Would you mind 〜ing?（〜していただけませんか）
+grammar,動名詞,He is used to (    ) up early.,getting|get|got|be getting,getting,be used to 〜ing（〜するのに慣れている）。used to + 原形（以前は〜したものだ）と区別。
+grammar,接続詞,I'll lend you this book (    ) you return it by Friday.,as long as|unless|though|until,as long as,as long as 〜（〜する限り・〜しさえすれば）。条件を表す。
+grammar,接続詞,"Hurry up, (    ) you'll miss the bus.",or|and|but|so,or,命令文 + or 〜（さもないと〜）。命令文 + and 〜 は「そうすれば〜」。
+grammar,前置詞・語法,Children today are exposed (    ) a lot of information on the Internet.,to|with|by|for,to,be exposed to 〜（〜にさらされる・触れる）。
+grammar,前置詞・語法,The heavy rain prevented us (    ) going out.,from|to|of|with,from,prevent A from 〜ing（A が〜するのを妨げる）。keep / stop A from 〜ing も同じ形。
+grammar,前置詞・語法,Our team is likely (    ) the game.,to win|winning|win|won,to win,be likely to 〜（〜しそうだ）。
+order,並べ替え（難関）,彼が何について話しているのか、私にはさっぱりわからない。,,I have no idea what he is talking about.,間接疑問：what + 主語 + 動詞。talk about の about が最後に残る。
+order,並べ替え（難関）,この本は難しすぎて私には読めない。,,This book is too difficult for me to read.,too 〜 for 人 to …（〜すぎて人は…できない）。
+order,並べ替え（難関）,窓のそばに立っている少女は私の妹です。,,The girl standing by the window is my sister.,現在分詞の後置修飾：the girl standing by the window。
+order,並べ替え（難関）,もっと時間があれば、世界中を旅するのに。,,"If I had more time, I would travel around the world.","仮定法過去：If + 過去形, would + 原形。"
+order,並べ替え（難関）,その知らせを聞いて、私たちはとても驚いた。,,We were very surprised to hear the news.,感情の原因の不定詞：be surprised to 〜（〜して驚く）。
+order,並べ替え（難関）,駅への行き方を教えていただけませんか。,,Could you tell me how to get to the station?,how to 〜（〜のしかた）。Could you 〜? はていねいな依頼。
+order,並べ替え（難関）,私が昨日買った本はとてもおもしろい。,,The book I bought yesterday is very interesting.,関係代名詞（目的格）の省略：the book (which) I bought yesterday。
+order,並べ替え（難関）,母は私に皿洗いを手伝ってくれるよう頼んだ。,,My mother asked me to help her with the dishes.,ask 人 to 〜（人に〜するよう頼む）、help 人 with 物（人の物を手伝う）。
+order,並べ替え（難関）,英語を話すことは、あなたが思っているほど難しくない。,,Speaking English is not as difficult as you think.,動名詞の主語 Speaking English、not as 〜 as …（…ほど〜でない）。
+order,並べ替え（難関）,彼は私が今まで会った中で最も親切な人です。,,He is the kindest person I have ever met.,最上級 + (that) I have ever 過去分詞（今まで〜した中で一番…）。
+vocab_ej,難関単語,contribute,貢献する|分配する|比較する|拒否する,貢献する,contribute to 〜（〜に貢献する・〜の一因となる）。contribution（貢献）
+vocab_ej,難関単語,discrimination,差別|発見|議論|分配,差別,discrimination = 差別。discriminate（差別する）
+vocab_ej,難関単語,essential,不可欠な|補助的な|伝統的な|一時的な,不可欠な,essential = 不可欠な・本質的な。necessary より強い。
+vocab_ej,難関単語,generation,世代|政府|将来|人口,世代,generation = 世代。the second generation（二世）
+vocab_ej,難関単語,likely,〜しそうな|愛らしい|そっくりの|生き生きした,〜しそうな,be likely to 〜（〜しそうだ）。lovely（愛らしい）、alike（似ている）、lively（生き生きした）と区別。
+vocab_ej,難関単語,immigrant,移民|観光客|留学生|難民,移民,immigrant = （外国からの）移民。「難民」は refugee。
+vocab_ej,難関単語,consequence,結果|原因|目的|条件,結果,consequence = 結果・影響。as a consequence（その結果）
+vocab_ej,難関単語,ancestor,祖先|子孫|親類|隣人,祖先,ancestor = 祖先。「子孫」は descendant。
+vocab_ej,難関単語,prevent,防ぐ・妨げる|予言する|提供する|保護する,防ぐ・妨げる,prevent A from 〜ing（A が〜するのを妨げる）。
+vocab_ej,難関単語,participate,参加する|分割する|祝う|期待する,参加する,participate in 〜 = take part in 〜（〜に参加する）。
+vocab_je,難関単語,〜を避ける,,avoid,avoid 〜ing（〜するのを避ける）。後ろは動名詞。
+vocab_je,難関単語,〜を減らす,,reduce,reduce = 減らす。reduce CO2 emissions（二酸化炭素の排出を減らす）
+vocab_je,難関単語,結論,,conclusion,conclusion = 結論。draw a conclusion（結論を出す）、in conclusion（結論として）
+vocab_je,難関単語,証拠,,evidence,evidence = 証拠。数えられない名詞。
+vocab_je,難関単語,多様性,,diversity,diversity = 多様性。diverse（多様な）
+vocab_je,難関単語,〜に頼る,,depend/rely,depend on 〜 / rely on 〜（〜に頼る）。
+vocab_je,難関単語,自信,,confidence,confidence = 自信。confident（自信のある）
+vocab_je,難関単語,〜を要求する,,demand/require/request,demand / require / request（要求する）。demand that 〜 の that 節は原形（should）。

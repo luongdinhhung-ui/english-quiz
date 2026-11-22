@@ -33,8 +33,14 @@ body {
   font-size: 17px;
   line-height: 1.5;
 }
-main { max-width: 560px; margin: 0 auto; padding: 16px; }
+main {
+  max-width: 560px; margin: 0 auto;
+  padding: max(16px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right))
+    max(24px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+}
 h1 { font-size: 1.6rem; margin: 8px 0 16px; }
+.title { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; }
+.logo { height: 1.1em; }
 h2 { font-size: 1.1rem; margin: 28px 0 8px; }
 .muted { color: var(--muted); }
 
@@ -52,10 +58,13 @@ button {
   background: var(--card); color: var(--text);
   border: 1px solid var(--border); border-radius: 10px;
   cursor: pointer;
+  touch-action: manipulation; /* no double-tap zoom */
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none; user-select: none; /* no text-select popup on long press */
 }
 button.primary { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
 button.danger { margin-top: 32px; color: var(--ng); }
-button.link { display: inline; width: auto; margin: 0; padding: 4px 8px; border: none; background: none; color: var(--muted); }
+button.link { display: inline; width: auto; margin: 0; padding: 10px 12px; border: none; background: none; color: var(--muted); }
 button:disabled { opacity: .45; cursor: default; }
 
 .stats-row { display: flex; gap: 12px; }
@@ -73,7 +82,10 @@ td:last-child { text-align: right; color: var(--muted); }
 .warning { background: var(--warn-bg); padding: 8px 12px; border-radius: 8px; margin: 6px 0; font-size: .9rem; }
 
 .quiz-head { display: flex; justify-content: space-between; align-items: center; color: var(--muted); }
-.prompt { font-size: 1.3rem; font-weight: 600; margin: 4px 0 16px; }
+.prompt { font-size: 1.3rem; font-weight: 600; margin: 4px 0 16px; white-space: pre-wrap; overflow-wrap: break-word; }
+.mark { white-space: nowrap; }
+.mark u { text-underline-offset: 4px; }
+.mark small { font-size: .7rem; color: var(--accent); vertical-align: sub; margin-left: 1px; }
 
 .choice.correct { border-color: var(--ok); color: var(--ok); }
 .choice.wrong { border-color: var(--ng); color: var(--ng); }

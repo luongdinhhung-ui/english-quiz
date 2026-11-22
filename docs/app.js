@@ -9,6 +9,8 @@ const TYPES = {
   vocab_je: { category: 'vocab', label: '英語で書こう' },
   grammar:  { category: 'grammar', label: '( ) に入る語句を選ぼう' },
   order:    { category: 'order', label: '正しい順に並べよう' },
+  error:    { category: 'grammar', label: 'まちがっている部分を選ぼう' },
+  fill:     { category: 'grammar', label: '( ) に入る1語を書こう' },
 };
 
 const $ = (id) => document.getElementById(id);
@@ -43,7 +45,7 @@ function splitOrder(answer) {
 function validate(q) {
   if (!TYPES[q.type]) return 'type が不正です';
   if (!q.topic || !q.question || !q.answer) return 'topic / question / answer が空です';
-  if (q.type === 'vocab_ej' || q.type === 'grammar') {
+  if (q.type === 'vocab_ej' || q.type === 'grammar' || q.type === 'error') {
     if (q.choices.length < 2) return 'choices が足りません';
     if (!q.choices.includes(q.answer)) return 'answer が choices の中にありません';
   }
@@ -127,6 +129,27 @@ function show(id) {
   for (const s of ['home', 'quiz', 'result']) $(s).hidden = s !== id;
   window.scrollTo(0, 0);
 }
+// short beeps made in the browser (no audio files). Called from a tap, so iOS allows it.
+let audioCtx = null;
+function playSound(correct) {
+  try {
+    audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)();
+    audioCtx.resume();
+    const notes = correct ? [[880, 0], [1319, 0.12]] : [[220, 0], [165, 0.15]];
+    for (const [freq, at] of notes) {
+      const o = audioCtx.createOscillator(), g = audioCtx.createGain();
+      o.type = correct ? 'sine' : 'square';
+      o.frequency.value = freq;
+      const t = audioCtx.currentTime + at;
+      g.gain.setValueAtTime(0.0001, t);
+      g.gain.exponentialRampToValueAtTime(correct ? 0.3 : 0.1, t + 0.01);
+      g.gain.exponentialRampToValueAtTime(0.0001, t + 0.25);
+      o.connect(g).connect(audioCtx.destination);
+      o.start(t);
+      o.stop(t + 0.3);
+    }
+  } catch { /* no audio support */ }
+}
 function el(tag, props = {}, text) {
   const e = Object.assign(document.createElement(tag), props);
   if (text !== undefined) e.textContent = text;
@@ -185,13 +208,30 @@ function renderQuestion() {
   const q = session.questions[session.index];
   $('progress').textContent = `${session.index + 1} / ${session.questions.length}`;
   $('prompt-label').textContent = TYPES[q.type].label;
-  $('prompt').textContent = q.question;
+  if (q.type === 'error') {
+    // 【A text】 → underlined text with a small letter, like the exam
+    const parts = q.question.split(/【([A-D]) ([^】]*)】/);
+    const nodes = [];
+    for (let i = 0; i < parts.length; i += 3) {
+      nodes.push(parts[i]);
+      if (i + 2 < parts.length) {
+        const m = el('span', { className: 'mark' });
+        m.append(el('u', {}, parts[i + 2]), el('small', {}, parts[i + 1]));
+        nodes.push(m);
+      }
+    }
+    $('prompt').replaceChildren(...nodes);
+  } else {
+    // keep each ( ) blank on one line
+    $('prompt').textContent = q.question.replace(/\([^)]*\)/g, (m) => m.replace(/ /g, '\u00a0'));
+  }
   $('feedback').hidden = true;
   const area = $('answer-area');
   area.replaceChildren();
 
-  if (q.type === 'vocab_ej' || q.type === 'grammar') {
-    for (const c of shuffle(q.choices)) {
+  if (q.type === 'vocab_ej' || q.type === 'grammar' || q.type === 'error') {
+    // error: keep A-B-C-D in sentence order
+    for (const c of q.type === 'error' ? q.choices : shuffle(q.choices)) {
       const b = el('button', { className: 'choice' }, c);
       b.onclick = () => {
         area.querySelectorAll('button').forEach((x) => {
@@ -203,7 +243,7 @@ function renderQuestion() {
       };
       area.append(b);
     }
-  } else if (q.type === 'vocab_je') {
+  } else if (q.type === 'vocab_je' || q.type === 'fill') {
     const input = el('input', { type: 'text', autocomplete: 'off', autocapitalize: 'off', spellcheck: false });
     const b = el('button', { className: 'primary' }, '答える');
     const submit = () => {
@@ -225,9 +265,12 @@ function renderQuestion() {
     const bank = el('div', { className: 'tiles' });
     const punctEl = el('span', { className: 'punct' }, punct);
     const check = el('button', { className: 'primary', disabled: true }, '答える');
+    const reset = el('button', { disabled: true }, 'やり直す');
+    const tiles = [];
     const refresh = () => {
       built.append(punctEl); // keep punctuation at the end
       check.disabled = bank.querySelectorAll('button').length > 0;
+      reset.disabled = built.querySelectorAll('button').length === 0;
     };
     for (const i of order) {
       const t = el('button', {}, words[i]);
@@ -237,26 +280,33 @@ function renderQuestion() {
         refresh();
       };
       bank.append(t);
+      tiles.push(t);
     }
+    reset.onclick = () => {
+      bank.append(...tiles); // back to the original shuffled order
+      refresh();
+    };
     check.onclick = () => {
       check.dataset.done = '1';
-      check.disabled = true;
+      check.disabled = reset.disabled = true;
       const got = [...built.querySelectorAll('button')].map((b) => b.textContent);
       finish(q, got.join(' ') === words.join(' '));
     };
     refresh();
-    area.append(built, bank, check);
+    area.append(built, bank, reset, check);
   }
 }
 
 function finish(q, correct) {
   record(q, correct);
+  playSound(correct);
   if (correct) session.score++;
   const r = $('feedback-result');
-  r.textContent = correct ? '⭕ 正解！' : `❌ 不正解　正解：${q.type === 'vocab_je' ? q.answer.split('/').join(' / ') : q.answer}`;
+  r.textContent = correct ? '⭕ 正解！' : `❌ 不正解　正解：${q.type === 'vocab_je' || q.type === 'fill' ? q.answer.split('/').join(' / ') : q.answer}`;
   r.className = correct ? 'ok' : 'ng';
   $('feedback-expl').textContent = q.explanation;
   $('feedback').hidden = false;
+  $('feedback').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   $('next-btn').focus();
 }
 
