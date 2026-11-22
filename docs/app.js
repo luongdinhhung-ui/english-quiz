@@ -11,6 +11,8 @@ const TYPES = {
   order:    { category: 'order', label: '正しい順に並べよう' },
   error:    { category: 'grammar', label: 'まちがっている部分を選ぼう' },
   fill:     { category: 'grammar', label: '( ) に入る1語を書こう' },
+  extra:    { category: 'grammar', label: '不要な1語を書こう' },
+  pick:     { category: 'grammar', label: '文法的に正しい英文を選ぼう' },
 };
 
 const $ = (id) => document.getElementById(id);
@@ -45,7 +47,7 @@ function splitOrder(answer) {
 function validate(q) {
   if (!TYPES[q.type]) return 'type が不正です';
   if (!q.topic || !q.question || !q.answer) return 'topic / question / answer が空です';
-  if (q.type === 'vocab_ej' || q.type === 'grammar' || q.type === 'error') {
+  if (q.type === 'vocab_ej' || q.type === 'grammar' || q.type === 'error' || q.type === 'pick') {
     if (q.choices.length < 2) return 'choices が足りません';
     if (!q.choices.includes(q.answer)) return 'answer が choices の中にありません';
   }
@@ -229,10 +231,10 @@ function renderQuestion() {
   const area = $('answer-area');
   area.replaceChildren();
 
-  if (q.type === 'vocab_ej' || q.type === 'grammar' || q.type === 'error') {
+  if (q.type === 'vocab_ej' || q.type === 'grammar' || q.type === 'error' || q.type === 'pick') {
     // error: keep A-B-C-D in sentence order
     for (const c of q.type === 'error' ? q.choices : shuffle(q.choices)) {
-      const b = el('button', { className: 'choice' }, c);
+      const b = el('button', { className: q.type === 'pick' ? 'choice sentence' : 'choice' }, c);
       b.onclick = () => {
         area.querySelectorAll('button').forEach((x) => {
           x.disabled = true;
@@ -243,7 +245,7 @@ function renderQuestion() {
       };
       area.append(b);
     }
-  } else if (q.type === 'vocab_je' || q.type === 'fill') {
+  } else if (q.type === 'vocab_je' || q.type === 'fill' || q.type === 'extra') {
     const input = el('input', { type: 'text', autocomplete: 'off', autocapitalize: 'off', spellcheck: false });
     const b = el('button', { className: 'primary' }, '答える');
     const submit = () => {

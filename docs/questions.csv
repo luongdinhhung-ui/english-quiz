@@ -82,3 +82,85 @@ vocab_je,難関単語,多様性,,diversity,diversity = 多様性。diverse（多
 vocab_je,難関単語,〜に頼る,,depend/rely,depend on 〜 / rely on 〜（〜に頼る）。
 vocab_je,難関単語,自信,,confidence,confidence = 自信。confident（自信のある）
 vocab_je,難関単語,〜を要求する,,demand/require/request,demand / require / request（要求する）。demand that 〜 の that 節は原形（should）。
+extra,不要な1語,We discussed about the problem for an hour.,,about,discuss は他動詞なので前置詞は不要：discuss the problem。
+extra,不要な1語,She married with a doctor last year.,,with,marry は他動詞：marry 人（人と結婚する）。get married to 人 の形もある。
+extra,不要な1語,Please let me to know your plans.,,to,使役動詞 let + O + 原形。to は不要。
+extra,不要な1語,When did you reach to the station?,,to,reach は他動詞：reach the station。arrive at / get to と区別。
+extra,不要な1語,He entered into the room quietly.,,into,enter は他動詞：enter the room（部屋に入る）。
+extra,不要な1語,This is the house which I lived in it as a child.,,it,関係代名詞 which が in の目的語の役割をしているので it は不要。
+extra,不要な1語,I have never been seen such a beautiful sunset.,,been,「見たことがない」は能動の現在完了 have never seen。been があると受け身になってしまう。
+extra,不要な1語,The man who he is standing over there is my uncle.,,he,関係代名詞 who が主語の役割をしているので he は不要。
+extra,不要な1語,Let's go to shopping this afternoon.,,to,go shopping（買い物に行く）。go 〜ing に to は不要。
+extra,不要な1語,How about to going to the movies tonight?,,to,How about 〜ing?（〜するのはどうですか）。about の直後に to は不要。
+extra,不要な1語,I don't know what does this word mean.,,does,間接疑問は「疑問詞＋主語＋動詞」：what this word means。does は不要。
+extra,不要な1語,My brother is more taller than my father.,,more,taller はすでに比較級。more taller とは言わない。
+extra,不要な1語,Each of the students has their own a computer.,,a,own の前に所有格（their）があるので a は不要：their own computer。
+extra,不要な1語,Please tell me the reason why for you were late.,,for,the reason why + 主語 + 動詞。for は不要。
+extra,不要な1語,The news made us to feel happy.,,to,使役 make + O + 原形：made us feel happy。
+extra,不要な1語,I was very surprised at to hear the news.,,at,be surprised to 〜（〜して驚く）。be surprised at + 名詞 と混ぜない。
+extra,不要な1語,"If I were you, I would not to do that.",,to,助動詞 would の後は原形：would not do。
+pick,正しい英文,次のうち、文法的に正しい英文はどれ？（lie / lay）,He laid on the bed and soon fell asleep.|He lay on the bed and soon fell asleep.|He lied on the bed and soon fell asleep.|He was lain on the bed and soon fell asleep.,He lay on the bed and soon fell asleep.,lie（横になる）- lay - lain、lay（〜を置く・横たえる）- laid - laid。「横になった」は lay。lied は「うそをついた」。
+pick,正しい英文,次のうち、文法的に正しい英文はどれ？（rise / raise）,The sun raises in the east.|Please rise your hand if you know the answer.|Prices have risen sharply this year.|The teacher was risen her voice.,Prices have risen sharply this year.,rise（上がる・自動詞）- rose - risen、raise（〜を上げる・他動詞）- raised - raised。
+pick,正しい英文,次のうち、文法的に正しい英文はどれ？（say / tell）,She said me that she was busy.|She told to me that she was busy.|She told me that she was busy.|She talked me that she was busy.,She told me that she was busy.,tell + 人 + that 〜。say は say to 人 / say that 〜 で、say me とは言わない。talk は that 節をとらない。
+pick,正しい英文,次のうち、文法的に正しい英文はどれ？（borrow / lend）,Can you borrow me your pen?|Can I borrow your pen for a minute?|Can I lend your pen for a minute?|I borrowed my bike to Tom yesterday.,Can I borrow your pen for a minute?,borrow（借りる）、lend（貸す）：lend 人 物 / lend 物 to 人。
+pick,正しい英文,次のうち、文法的に正しい英文はどれ？（動詞と前置詞）,We discussed about the plan.|She married with an American.|They arrived to Tokyo at noon.|I'll attend the meeting tomorrow.,I'll attend the meeting tomorrow.,attend（出席する）は他動詞。discuss / marry も他動詞なので about / with は不要。arrive は arrive in / at。
+pick,正しい英文,次のうち、文法的に正しい英文はどれ？（数えられない名詞）,I have many homework today.|She gave me some good advices.|We need more information about it.|How many furnitures do you have?,We need more information about it.,information / homework / advice / furniture は数えられない名詞。many や -s をつけない。
+pick,正しい英文,次のうち、文法的に正しい英文はどれ？（現在完了）,I have seen him yesterday.|When have you finished your homework?|I have known her since we were children.|He has died three years ago.,I have known her since we were children.,現在完了は yesterday / ago / When 〜? など過去の一時点を表す語と一緒に使えない。since 〜（〜以来）はOK。
+pick,正しい英文,次のうち、文法的に正しい英文はどれ？（比較）,He is very taller than me.|She is the more beautiful of the three.|Tokyo is larger than any city in Japan.|This is the most expensive of all the bags.,This is the most expensive of all the bags.,比較級の強調は much（very は不可）。any city ではなく any other city。3人の比較は最上級 the most。
+pick,正しい英文,次のうち、文法的に正しい英文はどれ？（感情を表す分詞）,I was very exciting about the trip.|The movie was very bored.|Everyone was surprised at the news.|I am interesting in science.,Everyone was surprised at the news.,人が「〜させられる」→ 過去分詞（surprised / excited / interested）、物が「〜させる」→ 現在分詞（exciting / boring）。
+pick,正しい英文,次のうち、文法的に正しい英文はどれ？（by / until）,I'll finish it until tomorrow.|I'll wait here by five o'clock.|Please hand in your report by Friday.|He was born at 2011.,Please hand in your report by Friday.,by（〜までに：期限）、until（〜までずっと：継続）。年の前は in：in 2011。
+pick,正しい英文,次のうち、文法的に正しい英文はどれ？（間接疑問）,I don't know where does he live.|Can you tell me what time it is?|Do you know who is she?|I wonder what did she buy.,Can you tell me what time it is?,間接疑問は「疑問詞＋主語＋動詞」の語順。what time it is が正しい。
+pick,正しい英文,次のうち、文法的に正しい英文はどれ？（hear / listen / look / see）,I listened a strange sound last night.|Please look this picture.|I heard a strange sound last night.|We saw TV after dinner.,I heard a strange sound last night.,hear（自然に聞こえる）、listen to（注意して聞く）、look at（目を向ける）、watch TV（テレビを見る）。
+fill,語彙（定義）,a person who travels to a place for pleasure ＝ ( t    ),,tourist,tourist = 観光客。tour（旅行）+ -ist（人）
+fill,語彙（定義）,a large area of land covered with trees ＝ ( f    ),,forest,forest = 森林。
+fill,語彙（定義）,the study of things that happened in the past ＝ ( h    ),,history,history = 歴史。
+fill,語彙（定義）,a person who writes books or stories ＝ ( a    ),,author,author = 作家・著者。writer とほぼ同じ。
+fill,語彙（定義）,a period of 100 years ＝ ( c    ),,century,century = 世紀（100年）。the 21st century（21世紀）
+fill,語彙（定義）,"the way of life, arts and beliefs of a group of people ＝ ( c    )",,culture,culture = 文化。
+fill,語彙（定義）,to say that you are sorry ＝ ( a    ),,apologize/apologise,apologize = 謝る。apologize to 人 for 〜（人に〜のことで謝る）
+fill,語彙（定義）,a place where you can see old or interesting objects ＝ ( m    ),,museum,museum = 博物館・美術館。
+fill,語彙（定義）,a person who lives next to you or near you ＝ ( n    ),,neighbor/neighbour,neighbor = 隣人・近所の人。イギリス式つづりは neighbour。
+fill,語彙（定義）,to find something for the first time ＝ ( d    ),,discover,discover = 発見する。discovery（発見）
+fill,語彙（定義）,needed in order to do something ＝ ( n    ),,necessary,necessary = 必要な。It is necessary for 人 to 〜
+fill,語彙（定義）,the opposite of 'ancient' ＝ ( m    ),,modern,modern = 現代の。ancient（古代の）の反意語。
+fill,語彙（定義）,a machine that can do work by itself ＝ ( r    ),,robot,robot = ロボット。発音は「ロウボット」に近い。
+fill,書き換え（熟語）,She is proud of her son. ＝ She takes (    ) in her son.,,pride,be proud of 〜 ＝ take pride in 〜（〜を誇りに思う）。
+fill,書き換え（熟語）,This bag belongs to me. ＝ This bag is (    ).,,mine,belong to 人（人のものである）＝ 所有代名詞 mine（私のもの）。
+fill,書き換え（熟語）,I'm interested in Japanese history. ＝ Japanese history is interesting (    ) me.,,to,物 is interesting to 人（人にとって興味深い）。
+fill,書き換え（熟語）,He couldn't go out because of the rain. ＝ The rain kept him (    ) going out.,,from,keep / prevent / stop A from 〜ing（A が〜するのを妨げる）。
+fill,書き換え（熟語）,Mr. Sato teaches us English. ＝ We learn English (    ) Mr. Sato.,,from,learn 〜 from 人（人から〜を学ぶ）。
+fill,書き換え（熟語）,The bus was crowded with people. ＝ The bus was (    ) of people.,,full,be crowded with 〜 ＝ be full of 〜（〜でいっぱい）。
+fill,書き換え（熟語）,She looked after the baby. ＝ She took care (    ) the baby.,,of,look after 〜 ＝ take care of 〜（〜の世話をする）。
+fill,書き換え（熟語）,I answered the question easily. ＝ I answered the question (    ) difficulty.,,without,easily ＝ without difficulty（苦労せずに）。with ease も同じ意味。
+fill,書き換え（熟語）,Snow covered the mountain. ＝ The mountain was covered (    ) snow.,,with,be covered with 〜（〜で覆われている）。by ではなく with。
+fill,書き換え（熟語）,Wine is made from grapes. ＝ Grapes are made (    ) wine.,,into,A is made from B（AはBから作られる）＝ B is made into A（BはAに加工される）。
+fill,書き換え（熟語）,It is not necessary for you to come. ＝ You don't (    ) to come.,,have/need,don't have to 〜 ＝ don't need to 〜（〜する必要はない）。
+fill,書き換え（熟語）,He is famous all over the world. ＝ He is known (    ) people all over the world.,,to,be known to 人（人に知られている）。by ではなく to。
+fill,書き換え（熟語）,He is good at swimming. ＝ He is a good (    ).,,swimmer,be good at 〜ing ＝ a good 〜er。swim → swimmer（m を重ねる）。
+fill,熟語,Please wait a moment. ＝ Please (    ) on a moment.,,hold,hold on（〔電話などで〕少し待つ）。
+fill,熟語,I'll visit your house tomorrow. ＝ I'll drop (    ) at your house tomorrow.,,by,drop by（ちょっと立ち寄る）。
+fill,熟語,Please continue. ＝ Please go (    ).,,on,go on（続ける）。go on 〜ing（〜し続ける）
+fill,熟語,Our plan failed. ＝ Our plan didn't work (    ).,,out,work out（うまくいく）。
+fill,熟語,I can't stand his rude words. ＝ I can't put up (    ) his rude words.,,with,put up with 〜 ＝ stand / bear（〜をがまんする）。
+fill,熟語,Let's cancel the meeting. ＝ Let's call (    ) the meeting.,,off,call off 〜 ＝ cancel（〜を中止する）。
+fill,熟語,He resembles his father. ＝ He takes (    ) his father.,,after,take after 〜 ＝ resemble（〔親など〕に似ている）。
+fill,熟語,Check the word in your dictionary. ＝ Look the word (    ) in your dictionary.,,up,look up 〜（〔辞書などで〕〜を調べる）。
+fill,熟語,I met Ken by chance at the station. ＝ I ran (    ) Ken at the station.,,into,run into 〜（〜に偶然出会う）＝ happen to meet。
+fill,熟語,She raised three children. ＝ She brought (    ) three children.,,up,bring up ＝ raise（子どもを育てる）。
+order,並べ替え（難関）,あなたが昨日話していた男性は誰ですか。,,Who is the man you were talking about yesterday?,関係代名詞（目的格）の省略：the man (whom) you were talking about。
+order,並べ替え（難関）,もし私が鳥なら、あなたのところへ飛んでいけるのに。,,"If I were a bird, I could fly to you.","仮定法過去：If I were 〜, I could + 原形。"
+order,並べ替え（難関）,次に何をすればよいのか、私にはわからなかった。,,I didn't know what to do next.,疑問詞 + to 不定詞：what to do（何をすべきか）。
+order,並べ替え（難関）,彼女は私に、どこでその本を買ったのかたずねた。,,She asked me where I had bought the book.,間接疑問＋時制の一致：尋ねたときより前に買ったので過去完了 had bought。
+order,並べ替え（難関）,これは私がずっと欲しかったカメラです。,,This is the camera I have wanted for a long time.,関係代名詞の省略＋現在完了（継続）：I have wanted for a long time。
+order,並べ替え（難関）,その山の頂上は雪で覆われていた。,,The top of the mountain was covered with snow.,be covered with 〜（〜で覆われている）。
+order,並べ替え（難関）,彼のおかげで、私たちはその試合に勝つことができた。,,"Thanks to him, we were able to win the game.",thanks to 〜（〜のおかげで）、be able to 〜（〜できる）。
+order,並べ替え（難関）,英語を学ぶのに遅すぎるということはない。,,It is never too late to learn English.,It is never too late to 〜（〜するのに遅すぎることはない）。
+order,並べ替え（難関）,彼女に会えたらいいのになあ。,,I wish I could see her.,I wish + 仮定法過去（could + 原形）：現在の願望。
+order,並べ替え（難関）,窓を開けたままにしておかないでください。,,Please don't leave the window open.,leave + O + 形容詞（O を〜のままにしておく）。
+error,誤文訂正,She 【A has】 【B lived】 in Osaka 【C since】 【D five years】.,A has|B lived|C since|D five years,C since,C → for。期間（five years）には for、起点（2020 / last year など）には since。
+error,誤文訂正,I 【A want】 you 【B helping】 me 【C with】 my homework 【D tonight】.,A want|B helping|C with|D tonight,B helping,B → to help。want + 人 + to 〜（人に〜してほしい）。
+error,誤文訂正,Neither he 【A nor】 I 【B is】 【C able to】 【D swim】.,A nor|B is|C able to|D swim,B is,B → am。Neither A nor B の動詞は B（ここでは I）に合わせる。
+error,誤文訂正,There 【A is】 【B a lot of】 【C furnitures】 【D in】 this room.,A is|B a lot of|C furnitures|D in,C furnitures,C → furniture。furniture（家具）は数えられない名詞なので -s をつけない。
+error,誤文訂正,This book is 【A too】 difficult 【B for】 me 【C to read】 【D it】.,A too|B for|C to read|D it,D it,D → 不要。too 〜 to … の文では、主語（This book）が read の目的語なので it は不要。
+error,誤文訂正,"My sister 【A is】 good at 【B cook】, and she 【C often】 makes 【D dinner】.",A is|B cook|C often|D dinner,B cook,B → cooking。前置詞 at の後は動名詞。
+error,誤文訂正,He 【A got】 up 【B lately】 and 【C was】 late 【D for】 school.,A got|B lately|C was|D for,B lately,B → late。late（遅く）、lately（最近）。意味がまったく違う。

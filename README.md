@@ -15,10 +15,10 @@ Columns:
 
 | column | meaning |
 |---|---|
-| `type` | `vocab_ej` (English → choose Japanese), `vocab_je` (Japanese → type English), `grammar` (choose the word for `( )`), `order` (並べ替え), `error` (誤文訂正: choose the wrong part), `fill` (type one word for `( )`) |
+| `type` | `vocab_ej` (English → choose Japanese), `vocab_je` (Japanese → type English), `grammar` (choose the word for `( )`), `order` (並べ替え), `error` (誤文訂正: choose the wrong part), `fill` (type one word for `( )`), `extra` (type the one unnecessary word), `pick` (choose the grammatically correct sentence) |
 | `topic` | shown in the トピック menu, e.g. `現在完了`, `動詞` |
 | `question` | the word / sentence shown. For `order`, the Japanese sentence |
-| `choices` | `vocab_ej`, `grammar` and `error` only: options separated by `\|`, e.g. `for\|since\|from\|at`. Must include the answer. Leave empty for other types |
+| `choices` | `vocab_ej`, `grammar`, `error` and `pick` only: options separated by `\|`, e.g. `for\|since\|from\|at`. Must include the answer. Leave empty for other types |
 | `answer` | the correct answer. `vocab_je` / `fill`: alternatives separated by `/`, e.g. `maybe/perhaps`. `order`: the full English sentence — it is split into word tiles at spaces, and the final `.` `?` `!` is shown fixed at the end |
 | `explanation` | shown after answering (Japanese) |
 

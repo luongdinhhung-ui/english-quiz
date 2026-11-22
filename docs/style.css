@@ -89,6 +89,7 @@ td:last-child { text-align: right; color: var(--muted); }
 
 .choice.correct { border-color: var(--ok); color: var(--ok); }
 .choice.wrong { border-color: var(--ng); color: var(--ng); }
+.choice.sentence { text-align: left; font-weight: 500; }
 
 .tiles { display: flex; flex-wrap: wrap; gap: 8px; min-height: 52px; padding: 8px;
   border: 1px dashed var(--border); border-radius: 10px; margin-bottom: 12px; align-items: center; }
