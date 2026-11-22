@@ -2,6 +2,7 @@
 
 const SESSION_SIZE = 10;
 const REVIEW_CLEAR = 2; // correct answers in a row needed to leave まちがえた問題
+const REVIEW_MIX = 3; // max past mistakes mixed into a normal session
 const STORE_KEY = 'eq-progress-v1';
 
 const TYPES = {
@@ -80,9 +81,9 @@ async function loadQuestions() {
 }
 
 // ---------- progress (localStorage) ----------
-function freshProgress() { return { mistakes: {}, topics: {}, streak: { last: null, count: 0 } }; }
+function freshProgress() { return { mistakes: {}, topics: {}, streak: { last: null, count: 0 }, seen: {} }; }
 function loadProgress() {
-  try { return JSON.parse(localStorage.getItem(STORE_KEY)) || freshProgress(); }
+  try { return { ...freshProgress(), ...JSON.parse(localStorage.getItem(STORE_KEY)) }; }
   catch { return freshProgress(); }
 }
 function saveProgress() {
@@ -167,10 +168,12 @@ function poolFor(category, topic) {
 
 function renderTopics() {
   const category = $('type-select').value;
-  const topics = [...new Set(poolFor(category, 'all').map((q) => q.topic))];
+  const pool = poolFor(category, 'all');
+  const counts = {};
+  for (const q of pool) counts[q.topic] = (counts[q.topic] || 0) + 1;
   const sel = $('topic-select');
-  sel.replaceChildren(el('option', { value: 'all' }, 'すべて'),
-    ...topics.map((t) => el('option', { value: t }, t)));
+  sel.replaceChildren(el('option', { value: 'all' }, `すべて（${pool.length}）`),
+    ...Object.entries(counts).map(([t, n]) => el('option', { value: t }, `${t}（${n}）`)));
 }
 
 function renderHome() {
@@ -199,8 +202,22 @@ let session = null;
 
 function reviewPool() { return QUESTIONS.filter((q) => q.id in progress.mistakes); }
 
+// never-shown / least-recently-shown first, random among ties (sort is stable)
+function freshestFirst(pool) {
+  return shuffle(pool).sort((a, b) => (progress.seen[a.id] || 0) - (progress.seen[b.id] || 0));
+}
+
 function startSession(pool, isReview = false) {
-  const questions = shuffle(pool).slice(0, SESSION_SIZE);
+  let questions;
+  if (isReview) questions = shuffle(pool).slice(0, SESSION_SIZE);
+  else {
+    const missed = shuffle(pool.filter((q) => q.id in progress.mistakes)).slice(0, REVIEW_MIX);
+    const rest = freshestFirst(pool.filter((q) => !missed.includes(q))).slice(0, SESSION_SIZE - missed.length);
+    questions = shuffle([...missed, ...rest]);
+  }
+  const now = Date.now();
+  for (const q of questions) progress.seen[q.id] = now;
+  saveProgress();
   session = { questions, index: 0, score: 0, pool, isReview };
   renderQuestion();
   show('quiz');
