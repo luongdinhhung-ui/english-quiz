@@ -164,3 +164,243 @@ error,誤文訂正,There 【A is】 【B a lot of】 【C furnitures】 【D in�
 error,誤文訂正,This book is 【A too】 difficult 【B for】 me 【C to read】 【D it】.,A too|B for|C to read|D it,D it,D → 不要。too 〜 to … の文では、主語（This book）が read の目的語なので it は不要。
 error,誤文訂正,"My sister 【A is】 good at 【B cook】, and she 【C often】 makes 【D dinner】.",A is|B cook|C often|D dinner,B cook,B → cooking。前置詞 at の後は動名詞。
 error,誤文訂正,He 【A got】 up 【B lately】 and 【C was】 late 【D for】 school.,A got|B lately|C was|D for,B lately,B → late。late（遅く）、lately（最近）。意味がまったく違う。
+grammar,英検2級 語彙,The museum asks visitors not to touch the paintings. Staff members (    ) check that everyone follows this rule.,regularly|barely|loosely|rarely,regularly,regularly＝定期的に、いつも。barely（ほとんど〜ない）や rarely（めったに〜ない）では文意が合わない。
+grammar,英検2級 語彙,"After failing his first driving test, Ken realized the (    ) of practicing more. He passed on his second try.",value|origin|surface|budget,value,the value of 〜ing＝〜することの大切さ。origin＝起源、surface＝表面、budget＝予算。
+grammar,英検2級 語彙,A: Do you usually eat breakfast at home?  B: Not really. I (    ) to skip it when I'm busy.,tend|deny|refuse|admit,tend,tend to 〜＝〜しがちである。deny / admit は 〜ing をとる。
+grammar,英検2級 語彙,The opening ceremony was (    ) because the main guest's flight was delayed. It started two hours later than planned.,postponed|polished|predicted|preserved,postponed,postpone＝延期する（= put off）。polish＝磨く、preserve＝保存する。
+grammar,英検2級 語彙,Only a small (    ) of students said they wanted longer school days. Most were against the idea.,minority|majority|quantity|variety,minority,minority＝少数派。後ろの Most were against と対比。majority＝多数派。
+grammar,英検2級 語彙,Our class will make a (    ) to the principal about using tablets in lessons. We hope she will agree.,proposal|refusal|survival|removal,proposal,make a proposal＝提案をする。refusal＝拒否、survival＝生存、removal＝除去。
+grammar,英検2級 語彙,Many experts (    ) that the number of electric cars will keep increasing over the next ten years.,predict|pretend|prevent|protest,predict,predict＝予測する。pretend＝ふりをする、prevent＝防ぐ、protest＝抗議する。
+grammar,英検2級 語彙,"Emma used to be (    ) about the environment, but after a beach clean-up event, she started recycling every day.",indifferent|anxious|curious|grateful,indifferent,be indifferent about/to 〜＝〜に無関心だ。but 以降の変化と対比になる。
+grammar,英検2級 語彙,Scientists are still searching for signs that water once (    ) on Mars.,existed|expanded|exported|expired,existed,exist＝存在する。expand＝広がる、export＝輸出する、expire＝期限が切れる。
+grammar,英検2級 語彙,The company's (    ) rose sharply this year thanks to strong sales overseas.,profits|traditions|symptoms|instincts,profits,profit＝利益。symptom＝症状、instinct＝本能。
+grammar,英検2級 語彙,The police officer asked the (    ) to describe what she had seen at the scene of the accident.,witness|tenant|novelist|pioneer,witness,witness＝目撃者。tenant＝借家人、pioneer＝先駆者。
+grammar,英検2級 語彙,Jack was so (    ) by the beautiful view from the mountain top that he could not say a word.,impressed|disappointed|bored|offended,impressed,be impressed by 〜＝〜に感銘を受ける。言葉を失うほど感動した。
+grammar,英検2級 語彙,"To (    ) energy, the school turns off the lights in empty classrooms.",conserve|consume|confuse|confess,conserve,conserve energy＝エネルギーを節約する。consume＝消費する（逆の意味）。
+grammar,英検2級 語彙,The new law will (    ) restaurants from using plastic straws starting next April.,prohibit|permit|encourage|attract,prohibit,prohibit A from 〜ing＝Aが〜するのを禁止する。permit は permit A to 〜 の形。
+grammar,英検2級 語彙,"Because of the long drought, farmers in the area are facing a serious (    ) of water.",shortage|portion|harvest|fortune,shortage,shortage of 〜＝〜の不足。harvest＝収穫、fortune＝財産・運。
+grammar,英検2級 語彙,Mike's grandmother is very (    ). She still walks five kilometers every morning at the age of 85.,energetic|fragile|ordinary|stubborn,energetic,energetic＝元気な、活動的な。fragile＝壊れやすい、stubborn＝頑固な。
+grammar,英検2級 語彙,The hotel was so popular that it was difficult to make a (    ) during the summer holidays.,reservation|reputation|decoration|population,reservation,make a reservation＝予約をする。reputation＝評判。
+grammar,英検2級 語彙,"The scientist's theory was (    ) at first, but later many experiments proved that she was right.",rejected|respected|repeated|rewarded,rejected,reject＝受け入れない、拒絶する。but later … proved that she was right と対比。
+grammar,英検2級 熟語,A: We have 30 minutes before the movie starts.  B: Let's look around the bookstore to (    ).,kill time|take place|lose touch|make sense,kill time,kill time＝時間をつぶす。take place＝行われる、lose touch＝連絡が途絶える。
+grammar,英検2級 熟語,"When you go hiking in the mountains, you should (    ) bears. They sometimes appear near the trail.",watch out for|run out of|catch up with|get rid of,watch out for,watch out for 〜＝〜に気をつける。run out of＝〜を使い果たす、get rid of＝〜を取り除く。
+grammar,英検2級 熟語,"The hotel was a little old, but (    ) we enjoyed our stay. The staff were very kind.",on the whole|on purpose|by mistake|at random,on the whole,on the whole＝全体としては、概して。on purpose＝わざと、at random＝無作為に。
+grammar,英検2級 熟語,"The train was very crowded, so Lisa had to (    ) the people to get to the door.",make her way through|take her turn at|keep her eye on|lose her temper with,make her way through,make one's way through 〜＝〜をかき分けて進む。keep an eye on＝〜を見張る、lose one's temper＝かっとなる。
+grammar,英検2級 熟語,Yuki has loved drawing (    ) she was a little girl.,ever since|as if|so that|even though,ever since,ever since 〜＝〜以来ずっと。現在完了 has loved と相性がよい。
+grammar,英検2級 熟語,"Little children often (    ) when they eat, so their parents put newspaper under the table.",make a mess|make a living|make a fortune|make an effort,make a mess,make a mess＝散らかす、汚す。make a living＝生計を立てる、make an effort＝努力する。
+grammar,英検2級 熟語,Tom stopped playing video games at night because he felt they (    ) his sleep.,interfered with|consisted of|depended on|resulted from,interfered with,interfere with 〜＝〜を妨げる。consist of＝〜から成る、result from＝〜から生じる。
+grammar,英検2級 熟語,The manager asked everyone to (    ) new ideas for the next advertising campaign.,come up with|look down on|put up with|get along with,come up with,come up with 〜＝（考えなど）を思いつく。put up with＝〜を我慢する、look down on＝〜を見下す。
+grammar,英検2級 熟語,The city festival will (    ) in the central park next weekend.,take place|take part|take over|take off,take place,take place＝（行事が）行われる。take part (in)＝参加する、take off＝離陸する。
+grammar,英検2級 熟語,Rising prices (    ) the decrease in the number of tourists this year.,account for|apply for|ask for|care for,account for,account for 〜＝〜の原因となる、〜を説明する。apply for＝〜に申し込む。
+grammar,英検2級 熟語,"After moving to Canada, Ken found it hard to (    ) his old friends in Japan.",keep in touch with|make fun of|take care of|catch sight of,keep in touch with,keep in touch with 〜＝〜と連絡を取り合う。make fun of＝〜をからかう、catch sight of＝〜を見つける。
+grammar,英検2級 熟語,"(    ) the heavy snow, the school trip was canceled.",Due to|In spite of|Instead of|In addition to,Due to,due to 〜＝〜のために（原因）。in spite of＝〜にもかかわらず、in addition to＝〜に加えて。
+order,並べ替え（難関）,明日雨が降ったら、私たちはピクニックを次の日曜日まで延期します。,,"If it rains tomorrow, we will put off the picnic until next Sunday.",時・条件の副詞節（if）の中は未来でも現在形 rains。put off＝延期する。
+order,並べ替え（難関）,彼女は一人で海外旅行ができるほどの年齢だ。,,She is old enough to travel abroad alone.,形容詞 + enough to 〜（〜できるほど…）。enough は形容詞の後ろ。
+order,並べ替え（難関）,信号が赤なのに、少年が通りを渡っているのが見えた。,,I saw a boy crossing the street while the light was red.,知覚動詞 see + O + 〜ing（O が〜しているのを見る）。
+order,並べ替え（難関）,昨夜、母は暗くなってから私を外出させてくれなかった。,,My mother didn't let me go out after dark last night.,使役動詞 let + O + 原形（O に〜させてやる）。to は不要。
+order,並べ替え（難関）,その問題はとても難しかったので、私たちのだれも答えられなかった。,,The question was so difficult that none of us could answer it.,so + 形容詞 + that 〜（とても…なので〜）。
+order,並べ替え（難関）,大雪のせいで、電車が2時間遅れた。,,"Because of the heavy snow, the trains were delayed for two hours.",because of + 名詞（〜のために）。because の後ろは文。
+order,並べ替え（難関）,京都に滞在している間に、私はおばといっしょにたくさんのお寺を訪れた。,,"While I was staying in Kyoto, I visited a lot of temples with my aunt.",while + 文（〜する間に）。during の後ろは名詞。
+order,並べ替え（難関）,これはフランスに住んでいた有名な画家によって描かれた絵です。,,This is a picture painted by a famous artist who lived in France.,過去分詞の後置修飾 a picture painted by 〜（〜によって描かれた絵）。
+order,並べ替え（難関）,またすぐにあなたに会えるのを楽しみにしています。,,I am looking forward to seeing you again soon.,look forward to 〜ing。この to は前置詞なので後ろは動名詞。
+order,並べ替え（難関）,日本を訪れる観光客の数は毎年増えている。,,The number of tourists who visit Japan is increasing every year.,the number of 〜（〜の数）は単数扱い → is。
+order,並べ替え（難関）,私が駅に着くとすぐに列車は出発した。,,Hardly had I arrived at the station when the train left.,Hardly had S 過去分詞 when 〜（〜するとすぐに）。否定語が文頭なので倒置。
+order,並べ替え（難関）,この単語が英語で何を意味するのか、私にはわからない。,,I don't know what this word means in English.,間接疑問は 疑問詞 + 主語 + 動詞 の語順：what this word means。
+order,並べ替え（難関）,この学校では、生徒は一人ひとり自分のタブレットを持っている。,,Each of the students has their own tablet at this school.,each of 〜 は単数扱い → has。
+order,並べ替え（難関）,彼女は5年間ずっと大阪に住んでいる。,,She has lived in Osaka for five years.,現在完了（継続）。期間は for、起点は since。
+order,並べ替え（難関）,今夜、宿題を手伝ってほしい。,,I want you to help me with my homework tonight.,want 人 to 〜（人に〜してほしい）、help 人 with 物。
+order,並べ替え（難関）,富士山は日本のほかのどの山よりも高い。,,Mt. Fuji is higher than any other mountain in Japan.,比較級 + than any other + 単数名詞＝最上級の意味。
+order,並べ替え（難関）,これは祖父によって建てられた家です。,,This is the house built by my grandfather.,過去分詞の後置修飾 the house built by 〜。
+order,並べ替え（難関）,この腕時計はおじが私にくれたものです。,,This watch was given to me by my uncle.,受け身 be given to 人 by 〜（〜から人に与えられる）。
+order,並べ替え（難関）,彼女がどこに住んでいるか知っていますか。,,Do you know where she lives?,間接疑問 where + 主語 + 動詞。does は使わない。
+order,並べ替え（難関）,雨のために彼は外出できなかった。,,The rain kept him from going out.,keep 人 from 〜ing（人が〜するのを妨げる）。無生物主語の構文。
+order,並べ替え（難関）,ブドウはワインになる。,,Grapes are made into wine.,be made into 〜（〜に加工される）。原料が主語。
+order,並べ替え（難関）,彼女は息子を誇りに思っている。,,She takes pride in her son.,take pride in 〜 = be proud of 〜（〜を誇りに思う）。
+order,並べ替え（難関）,今何時か教えてくれますか。,,Can you tell me what time it is?,間接疑問：what time + 主語 + 動詞。
+order,並べ替え（難関）,金曜日までにレポートを提出してください。,,Please hand in your report by Friday.,hand in＝提出する。by＝〜までに（期限）、until＝〜までずっと（継続）。
+order,並べ替え（難関）,彼女へのプレゼントを選ぶときは、年齢を考慮に入れるべきだ。,,You should take her age into account when you choose a present.,take 〜 into account（〜を考慮に入れる）。
+order,並べ替え（難関）,マイクを除いて、全員がパーティーに来た。,,Everyone came to the party except Mike.,except 〜（〜を除いて）。everyone は単数扱い。
+order,並べ替え（難関）,英語で書かれたその手紙は、私には読むのが難しかった。,,The letter written in English was difficult for me to read.,過去分詞の後置修飾 the letter written in English。主語が長い文。
+order,並べ替え（難関）,健康を失って初めて、その大切さに気づいた。,,It was not until I lost my health that I realized its value.,It is not until 〜 that …（〜して初めて…する）。
+order,並べ替え（難関）,何が起ころうとも、私は決して夢をあきらめない。,,"Whatever happens, I will never give up my dream.",whatever＝何が〜しようとも（譲歩）。give up＝あきらめる。
+order,並べ替え（難関）,ここは父が生まれた町です。,,This is the town where my father was born.,関係副詞 where（場所）。the town in which 〜 と同じ。
+order,並べ替え（難関）,トムだけでなく彼の兄弟たちもサッカーが好きだ。,,Not only Tom but also his brothers like soccer.,not only A but also B は B に動詞を合わせる → brothers なので like。
+order,並べ替え（難関）,彼はまるで何でも知っているかのように話す。,,He speaks as if he knew everything.,as if + 仮定法過去（まるで〜かのように）。
+order,並べ替え（難関）,昨日、私はその店で自転車を修理してもらった。,,I had my bike repaired at the shop yesterday.,have + O + 過去分詞（O を〜してもらう）。
+order,並べ替え（難関）,練習すればするほど、上手になるだろう。,,"The more you practice, the better you will become.","the 比較級 〜, the 比較級 …（〜すればするほど…）。"
+order,並べ替え（難関）,宿題を終えるのに3時間かかった。,,It took me three hours to finish my homework.,It takes 人 時間 to 〜（人が〜するのに時間がかかる）。
+order,並べ替え（難関）,窓を開けていただけませんか。,,Would you mind opening the window?,Would you mind 〜ing?（〜していただけませんか）。mind の後ろは動名詞。
+order,並べ替え（難関）,彼女は学校で一番歌がうまいと言われている。,,She is said to be the best singer in our school.,S is said to 〜（S は〜だと言われている）。
+order,並べ替え（難関）,もし真実を知っていたら、あなたに話していたのに。,,"If I had known the truth, I would have told you.","仮定法過去完了：If + had 過去分詞, would have 過去分詞（過去の事実と反対）。"
+order,並べ替え（難関）,健康ほど大切なものはない。,,There is nothing more important than health.,nothing + 比較級 + than 〜（〜ほど…なものはない）＝最上級の意味。
+order,並べ替え（難関）,空港に行くのにどのくらい時間がかかるか知っていますか。,,Do you know how long it takes to get to the airport?,間接疑問 how long + it takes。It takes 〜 to … の組み合わせ。
+order,並べ替え（難関）,祖母は一人暮らしに慣れている。,,My grandmother is used to living alone.,be used to 〜ing（〜に慣れている）。used to + 原形（以前は〜した）と区別。
+order,並べ替え（難関）,こんなに美しい夕日は見たことがない。,,I have never seen such a beautiful sunset.,such a + 形容詞 + 名詞。現在完了（経験）の否定 have never 過去分詞。
+order,並べ替え（難関）,かばんを盗まれた少年は警察へ行った。,,The boy whose bag was stolen went to the police.,所有格の関係代名詞 whose：the boy whose bag 〜。
+order,並べ替え（難関）,この嵐の中、外出しないほうがいい。,,You had better not go out in this storm.,had better not + 原形（〜しないほうがよい）。not の位置に注意。
+order,並べ替え（難関）,最後の問題に答えられた生徒はほとんどいなかった。,,Few students were able to answer the last question.,few + 数えられる名詞（ほとんど〜ない）。a few（少しはある）と区別。
+order,並べ替え（難関）,彼はきっと試験に合格すると思う。,,I'm sure that he will pass the exam.,I'm sure that 〜（きっと〜だと思う）。
+vocab_ej,難関単語,postpone,延期する|延長する|予約する|中止する,延期する,postpone = put off（延期する）。中止する は cancel / call off。
+vocab_ej,難関単語,minority,少数派|多数派|大部分|平均,少数派,minority = 少数派。反対は majority（多数派）。
+vocab_ej,難関単語,predict,予測する|保護する|防ぐ|ふりをする,予測する,predict = 予測する。prediction（予測）
+vocab_ej,難関単語,indifferent,無関心な|異なる|独立した|無邪気な,無関心な,be indifferent to 〜（〜に無関心だ）。different（異なる）と区別。
+vocab_ej,難関単語,exist,存在する|拡大する|主張する|期限が切れる,存在する,exist = 存在する。existence（存在）
+vocab_ej,難関単語,profit,利益|進歩|目的|証拠,利益,profit = 利益。make a profit（利益を上げる）
+vocab_ej,難関単語,witness,目撃者|証拠|被害者|犯人,目撃者,witness = 目撃者・目撃する。証拠は evidence。
+vocab_ej,難関単語,conserve,保存する・節約する|消費する|確認する|告白する,保存する・節約する,conserve energy（エネルギーを節約する）。conservation（保護）
+vocab_ej,難関単語,prohibit,禁止する|許可する|促進する|保護する,禁止する,prohibit A from 〜ing（A が〜するのを禁止する）。
+vocab_ej,難関単語,shortage,不足|余り|短縮|輸送,不足,shortage of 〜（〜の不足）。short（不足した）
+vocab_ej,難関単語,reservation,予約|評判|観察|装飾,予約,make a reservation（予約する）。reserve（予約する）
+vocab_ej,難関単語,reject,拒絶する|受け入れる|反射する|後悔する,拒絶する,reject = 拒絶する。反対は accept。
+vocab_ej,難関単語,fragile,壊れやすい|香りのよい|貴重な|柔軟な,壊れやすい,fragile = 壊れやすい。荷物の「取扱注意」にも書かれる。
+vocab_ej,難関単語,stubborn,頑固な|勇敢な|臆病な|正直な,頑固な,stubborn = 頑固な。
+vocab_ej,難関単語,consume,消費する|仮定する|再開する|生み出す,消費する,consume = 消費する。consumer（消費者）
+vocab_ej,難関単語,reputation,評判|繰り返し|代表|返答,評判,reputation = 評判。repetition（繰り返し）と区別。
+vocab_ej,難関単語,emphasize,強調する|共感する|雇う|可能にする,強調する,emphasize = 強調する。emphasis（強調）
+vocab_ej,難関単語,harvest,収穫|港|調和|狩り,収穫,harvest = 収穫（する）。harbor（港）、harmony（調和）と区別。
+vocab_ej,難関単語,ambitious,野心的な|曖昧な|不安な|謙虚な,野心的な,"ambitious = 野心的な。Boys, be ambitious!（少年よ、大志を抱け）"
+vocab_ej,難関単語,temporary,一時的な|現代の|永久の|伝統的な,一時的な,temporary = 一時的な。反対は permanent（永久の）。
+vocab_je,難関単語,提案,,proposal/suggestion,make a proposal（提案する）。suggest / propose（提案する）
+vocab_je,難関単語,価値,,value,value = 価値。valuable（価値のある）
+vocab_je,難関単語,印象,,impression,impression = 印象。be impressed by 〜（〜に感銘を受ける）
+vocab_je,難関単語,環境,,environment,environment = 環境。environmental problems（環境問題）
+vocab_je,難関単語,〜を保護する,,protect,protect A from B（A を B から守る）。protection（保護）
+vocab_je,難関単語,〜を説明する,,explain,explain 物 to 人（人に物を説明する）。explain me 〜 とは言わない。
+vocab_je,難関単語,経験,,experience,experience = 経験（する）。
+vocab_je,難関単語,〜を改善する,,improve,improve = 改善する・上達する。improvement（改善）
+vocab_je,難関単語,〜を比較する,,compare,compare A with B（A と B を比較する）。
+vocab_je,難関単語,汚染,,pollution,air pollution（大気汚染）。pollute（汚染する）
+vocab_je,難関単語,資源,,resource/resources,natural resources（天然資源）。
+vocab_je,難関単語,〜を発明する,,invent,invent = 発明する。invention（発明）、discover（発見する）と区別。
+vocab_je,難関単語,機会,,opportunity/chance,opportunity = 機会。have an opportunity to 〜（〜する機会がある）
+vocab_je,難関単語,〜を表現する,,express,express = 表現する。expression（表現）
+vocab_je,難関単語,地域社会,,community,community = 地域社会・共同体。
+vocab_je,難関単語,原因,,cause,cause = 原因・〜を引き起こす。cause and effect（原因と結果）
+vocab_je,難関単語,責任,,responsibility,responsibility = 責任。be responsible for 〜（〜に責任がある）
+vocab_je,難関単語,〜を想像する,,imagine,imagine 〜ing（〜するのを想像する）。imagination（想像力）
+vocab_je,難関単語,平均,,average,on average（平均して）。
+vocab_je,難関単語,〜を確認する,,confirm/check,confirm = 確認する。confirm a reservation（予約を確認する）
+order,並べ替え（難関）,私は子どものころからずっとこの町に住んでいる。,,I have lived in this town since I was a child.,現在完了（継続）＋ since 〜（〜以来）。
+order,並べ替え（難関）,宿題はもう終わりましたか。,,Have you finished your homework yet?,現在完了（完了）の疑問文。yet は疑問文で「もう」。
+order,並べ替え（難関）,私は一度も海外に行ったことがない。,,I have never been abroad.,have been 〜（〜に行ったことがある）。abroad は副詞なので to は不要。
+order,並べ替え（難関）,彼はちょうど駅に着いたところだ。,,He has just arrived at the station.,現在完了（完了）＋ just。arrive at 〜（〜に着く）。
+order,並べ替え（難関）,雨が三日間ずっと降り続いている。,,It has been raining for three days.,現在完了進行形 have been 〜ing（ずっと〜し続けている）。
+order,並べ替え（難関）,この歌は世界中の人々に愛されている。,,This song is loved by people all over the world.,受け身 be + 過去分詞 + by 〜。all over the world（世界中で）。
+order,並べ替え（難関）,その橋は10年前に建てられた。,,The bridge was built ten years ago.,過去の受け身 was + 過去分詞。
+order,並べ替え（難関）,英語は多くの国で話されている。,,English is spoken in many countries.,受け身。by people は省略されることが多い。
+order,並べ替え（難関）,私は見知らぬ人に話しかけられた。,,I was spoken to by a stranger.,speak to 〜 の受け身 be spoken to by 〜。to を落とさない。
+order,並べ替え（難関）,その部屋は今掃除されているところだ。,,The room is being cleaned now.,進行形の受け身 be being + 過去分詞。
+order,並べ替え（難関）,彼は医者になるために一生懸命勉強した。,,He studied hard to become a doctor.,目的を表す不定詞（〜するために）。
+order,並べ替え（難関）,何か冷たい飲み物がほしい。,,I want something cold to drink.,something + 形容詞 + to 不定詞の語順。
+order,並べ替え（難関）,彼女は親切にも私を駅まで案内してくれた。,,She was kind enough to show me the way to the station.,形容詞 + enough to 〜（親切にも〜する）。show 人 the way（道を案内する）。
+order,並べ替え（難関）,彼は何も言わずに部屋を出て行った。,,He left the room without saying anything.,without 〜ing（〜しないで）。前置詞の後ろは動名詞。
+order,並べ替え（難関）,私にはその問題を解くのは簡単だった。,,It was easy for me to solve the problem.,It is 〜 for 人 to …（人にとって…するのは〜だ）。
+order,並べ替え（難関）,手伝ってくれるとは、あなたは親切ですね。,,It is kind of you to help me.,人の性質を表す形容詞（kind など）は for ではなく of 人。
+order,並べ替え（難関）,次にどこへ行けばよいか教えてください。,,Please tell me where to go next.,疑問詞 + to 不定詞：where to go（どこへ行くべきか）。
+order,並べ替え（難関）,彼は年をとりすぎていて、その山に登れない。,,He is too old to climb the mountain.,too 〜 to …（〜すぎて…できない）。
+order,並べ替え（難関）,私は彼に部屋を掃除させた。,,I made him clean the room.,使役動詞 make + O + 原形（O に〜させる）。
+order,並べ替え（難関）,彼女は私に、遅れないようにと言った。,,She told me not to be late.,tell 人 not to 〜（人に〜しないように言う）。not は to の前。
+order,並べ替え（難関）,前に彼に会ったことを覚えている。,,I remember meeting him before.,remember 〜ing（〜したことを覚えている）。remember to 〜 は「忘れずに〜する」。
+order,並べ替え（難関）,手紙を出すのを忘れないで。,,Don't forget to mail the letter.,forget to 〜（〜するのを忘れる：これからのこと）。
+order,並べ替え（難関）,早起きは健康によい。,,Getting up early is good for your health.,動名詞の主語 Getting up early は単数扱い → is。
+order,並べ替え（難関）,公園で遊んでいる子どもたちは私の生徒です。,,The children playing in the park are my students.,現在分詞の後置修飾。主語は The children なので are。
+order,並べ替え（難関）,彼は割れたガラスで手をけがした。,,He hurt his hand on the broken glass.,過去分詞の前置修飾 broken glass（割れたガラス）。
+order,並べ替え（難関）,私は日本製の車を持っている。,,I have a car made in Japan.,過去分詞の後置修飾 a car made in Japan。
+order,並べ替え（難関）,彼女は目を閉じたまま音楽を聴いていた。,,She was listening to music with her eyes closed.,付帯状況の with + O + 過去分詞（O を〜したまま）。
+order,並べ替え（難関）,その試合を見ていた人々はみな興奮していた。,,All the people watching the game were excited.,現在分詞の後置修飾＋感情の過去分詞 excited（人が興奮した）。
+order,並べ替え（難関）,私には父親が医者をしている友だちがいる。,,I have a friend whose father is a doctor.,所有格の関係代名詞 whose。
+order,並べ替え（難関）,彼が言ったことは本当だった。,,What he said was true.,関係代名詞 what（〜すること・もの）＝ the thing which。
+order,並べ替え（難関）,これは私が探していた本です。,,This is the book I was looking for.,目的格の関係代名詞の省略。look for の for が最後に残る。
+order,並べ替え（難関）,私たちが初めて会った日を覚えていますか。,,Do you remember the day when we first met?,関係副詞 when（時）。
+order,並べ替え（難関）,彼が遅れた理由を知っていますか。,,Do you know the reason why he was late?,関係副詞 why（理由）：the reason why 〜。
+order,並べ替え（難関）,私が最も尊敬している人は祖父です。,,The person I respect most is my grandfather.,目的格の関係代名詞の省略：The person (whom) I respect most。
+order,並べ替え（難関）,私が言いたいのはそういうことではない。,,That is not what I want to say.,関係代名詞 what：what I want to say（私が言いたいこと）。
+order,並べ替え（難関）,この本はあの本の2倍の厚さがある。,,This book is twice as thick as that one.,twice as 〜 as …（…の2倍〜）。one は book のくり返しを避ける。
+order,並べ替え（難関）,東京は世界で最も大きな都市の一つだ。,,Tokyo is one of the largest cities in the world.,one of the 最上級 + 複数名詞（最も〜なものの一つ）。
+order,並べ替え（難関）,彼は私より3歳年上だ。,,He is three years older than I am.,差は比較級の前に置く：three years older than 〜。
+order,並べ替え（難関）,できるだけ早く返事をください。,,Please write back as soon as possible.,as 〜 as possible（できるだけ〜）。write back（返事を書く）。
+order,並べ替え（難関）,私は夏より冬のほうが好きだ。,,I like winter better than summer.,like A better than B（B より A が好き）。
+order,並べ替え（難関）,彼は以前ほど速く走れない。,,He can't run as fast as he used to.,not as 〜 as …（…ほど〜でない）＋ used to（以前は〜した）。
+order,並べ替え（難関）,彼がここにいればいいのになあ。,,I wish he were here.,I wish + 仮定法過去。be 動詞は主語に関係なく were が基本。
+order,並べ替え（難関）,もしあのバスに乗っていたら、遅れなかっただろう。,,"If I had taken that bus, I wouldn't have been late.","仮定法過去完了：If + had 過去分詞, would not have 過去分詞。"
+order,並べ替え（難関）,あなたの助けがなかったら、私は成功しなかっただろう。,,"Without your help, I would not have succeeded.",Without 〜 ＝ If it had not been for 〜（〜がなかったら）。
+order,並べ替え（難関）,もう寝る時間ですよ。,,It's time you went to bed.,It's time + 仮定法過去（もう〜してもよいころだ）。
+order,並べ替え（難関）,急ぎなさい、そうしないと電車に乗り遅れますよ。,,"Hurry up, or you will miss the train.","命令文, or 〜（…しなさい、そうしないと〜）。and なら「そうすれば」。"
+order,並べ替え（難関）,彼は熱があったけれども、学校に来た。,,"Although he had a fever, he came to school.",although + 文（〜だけれども）。despite / in spite of の後ろは名詞。
+order,並べ替え（難関）,私が帰宅したとき、母は夕食を作っていた。,,"When I got home, my mother was cooking dinner.",過去進行形 was 〜ing（〜しているところだった）。get home の home は副詞。
+order,並べ替え（難関）,雨が降っていたので、私たちは家にいた。,,"Since it was raining, we stayed at home.",since ＝ 〜なので（理由）。「〜以来」の意味もある。
+order,並べ替え（難関）,彼女は風邪をひかないようにコートを着た。,,She wore a coat so that she wouldn't catch a cold.,so that S will/can not 〜（〜しないように）。時制の一致で wouldn't。
+order,並べ替え（難関）,彼が来るまでここで待ちましょう。,,Let's wait here until he comes.,until 〜（〜までずっと）。時の副詞節なので未来でも現在形 comes。
+order,並べ替え（難関）,彼女は家に着くとすぐに私に電話をくれた。,,"As soon as she got home, she called me.",as soon as 〜（〜するとすぐに）。
+order,並べ替え（難関）,彼は英語もフランス語も話せる。,,He can speak both English and French.,both A and B（A も B も両方）。
+order,並べ替え（難関）,私も彼もその答えを知らなかった。,,Neither he nor I knew the answer.,neither A nor B（A も B も〜ない）。動詞は B に合わせる。
+order,並べ替え（難関）,彼がいつ戻ってくるか知っていますか。,,Do you know when he will come back?,間接疑問 when + 主語 + 動詞。名詞節なので未来は will を使う。
+order,並べ替え（難関）,この傘はだれのものだと思いますか。,,Whose umbrella do you think this is?,Yes/No で答えない疑問文は 疑問詞 + do you think + 主語 + 動詞。
+order,並べ替え（難関）,次の電車が何時に出るか教えていただけますか。,,Could you tell me what time the next train leaves?,間接疑問 what time + 主語 + 動詞。時刻表の予定は現在形。
+order,並べ替え（難関）,その知らせは私たちを悲しませた。,,The news made us sad.,make + O + 形容詞（O を〜にする）。無生物主語。
+order,並べ替え（難関）,彼女はその犬にポチと名づけた。,,She named the dog Pochi.,name + O + C（O を C と名づける）。
+order,並べ替え（難関）,この道を行けば駅に着きます。,,This road will take you to the station.,無生物主語 take 人 to 〜（人を〜に連れて行く）。
+order,並べ替え（難関）,少し休んではどうですか。,,Why don't you take a short rest?,Why don't you 〜?（〜してはどうですか）。
+order,並べ替え（難関）,彼は約束を守る人だ。,,He is a man who keeps his promises.,主格の関係代名詞 who。keep one's promise（約束を守る）。
+order,並べ替え（難関）,私は彼女がピアノを弾くのを聞いた。,,I heard her play the piano.,知覚動詞 hear + O + 原形（O が〜するのを聞く）。
+order,並べ替え（難関）,何でも好きなものを食べていいよ。,,You can eat anything you like.,anything (that) you like（あなたが好きなものは何でも）。関係代名詞の省略。
+order,並べ替え（難関）,この問題を解くには、少なくとも1時間はかかるだろう。,,It will take at least an hour to solve this problem.,It takes 時間 to 〜。at least（少なくとも）。
+order,並べ替え（難関）,彼は疲れていたので、早く寝た。,,"Being tired, he went to bed early.",分詞構文 Being tired ＝ Because he was tired。
+vocab_ej,難関単語,abandon,捨てる・あきらめる|採用する|吸収する|乱用する,捨てる・あきらめる,abandon = 捨てる、（計画を）あきらめる。
+vocab_ej,難関単語,accurate,正確な|適切な|偶然の|活発な,正確な,accurate = 正確な。accuracy（正確さ）
+vocab_ej,難関単語,annual,毎年の|毎月の|古代の|動物の,毎年の,annual = 毎年の・年1回の。an annual event（年中行事）
+vocab_ej,難関単語,anxious,心配して|怒って|退屈して|満足して,心配して,be anxious about 〜（〜を心配する）。be anxious to 〜 は「〜したがる」。
+vocab_ej,難関単語,appropriate,適切な|おおよその|感謝している|人工の,適切な,appropriate = 適切な。approximate（おおよその）と区別。
+vocab_ej,難関単語,attitude,態度|高度|適性|注意,態度,attitude = 態度。altitude（高度）、aptitude（適性）と区別。
+vocab_ej,難関単語,bilingual,2か国語を話す|二重の|伝記の|生物の,2か国語を話す,bi- = 2、lingual = 言語の。
+vocab_ej,難関単語,capable,能力がある|快適な|慎重な|有名な,能力がある,be capable of 〜ing（〜する能力がある）。
+vocab_ej,難関単語,colleague,同僚|大学|同級生|上司,同僚,colleague = 職場の同僚。college（大学）と区別。
+vocab_ej,難関単語,cooperate,協力する|競争する|経営する|調理する,協力する,co- = 共に、operate = 働く。cooperation（協力）
+vocab_ej,難関単語,crucial,決定的に重要な|残酷な|正確な|好奇心の強い,決定的に重要な,crucial = 非常に重要な。cruel（残酷な）と区別。
+vocab_ej,難関単語,decline,減少する・断る|増加する|定義する|決定する,減少する・断る,decline = 減少する、（申し出を）断る。
+vocab_ej,難関単語,deserve,〜に値する|〜を保存する|〜を観察する|〜に仕える,〜に値する,deserve = 〜に値する。You deserve it.（当然の結果だ）
+vocab_ej,難関単語,efficient,効率的な|十分な|効果的な|豊富な,効率的な,efficient = 効率的な。effective（効果的な）、sufficient（十分な）と区別。
+vocab_ej,難関単語,eventually,最終的に|偶然に|同時に|すぐに,最終的に,eventually = ついに・最終的に。「偶然に」は accidentally / by chance。
+vocab_ej,難関単語,frequent,頻繁な|新鮮な|友好的な|自由な,頻繁な,frequent = 頻繁な。frequently（しばしば）
+vocab_ej,難関単語,humid,湿気の多い|謙虚な|人間の|乾燥した,湿気の多い,humid = 湿気の多い。humidity（湿度）。humble（謙虚な）と区別。
+vocab_ej,難関単語,inevitable,避けられない|目に見えない|無敵の|貴重な,避けられない,inevitable = 避けられない・必然の。invisible（目に見えない）と区別。
+vocab_ej,難関単語,obtain,手に入れる|維持する|観察する|従う,手に入れる,obtain = get（手に入れる）。obey（従う）、observe（観察する）と区別。
+vocab_ej,難関単語,neglect,無視する・怠る|選ぶ|交渉する|反射する,無視する・怠る,neglect = 無視する、（義務を）怠る。negotiate（交渉する）と区別。
+vocab_ej,難関単語,obvious,明らかな|ありふれた|不明な|義務的な,明らかな,obvious = 明らかな。obviously（明らかに）
+vocab_ej,難関単語,occupation,職業|場合|事務所|義務,職業,occupation = 職業（「占領」の意味もある）。occasion（場合）と区別。
+vocab_ej,難関単語,permanent,永久の|一時的な|個人の|完璧な,永久の,permanent = 永久の。反対は temporary（一時的な）。
+vocab_ej,難関単語,rural,いなかの|都会の|王室の|乱暴な,いなかの,rural = いなかの。反対は urban（都会の）。royal（王室の）と区別。
+vocab_ej,難関単語,sufficient,十分な|効率的な|突然の|成功した,十分な,sufficient = enough（十分な）。
+vocab_ej,難関単語,vague,あいまいな|空っぽの|価値のある|有効な,あいまいな,vague = あいまいな。vacant（空いている）、valid（有効な）と区別。
+vocab_ej,難関単語,victim,犠牲者|勝利者|訪問者|悪役,犠牲者,victim = 犠牲者・被害者。victory（勝利）と区別。
+vocab_ej,難関単語,wisdom,知恵|願い|自由|富,知恵,wisdom = 知恵。wise（賢い）
+vocab_ej,難関単語,vehicle,乗り物|野菜|道具|建物,乗り物,vehicle = 乗り物・車両。発音は [víːəkl]。
+vocab_je,難関単語,〜を受け入れる,,accept,accept = 受け入れる。反対は reject / refuse。
+vocab_je,難関単語,〜を達成する,,achieve/accomplish,achieve = 達成する。achievement（達成）
+vocab_je,難関単語,利点,,advantage/benefit/merit,advantage = 利点。反対は disadvantage。
+vocab_je,難関単語,〜に影響を与える,,affect/influence,affect = 影響を与える（動詞）。effect は「影響・効果」（名詞）。
+vocab_je,難関単語,〜を発表する,,announce,announce = 発表する。announcement（発表）
+vocab_je,難関単語,〜を認める,,admit/recognize/recognise,admit 〜ing（〜したことを認める）。
+vocab_je,難関単語,不平を言う,,complain,complain about 〜（〜について不平を言う）。complaint（不平）
+vocab_je,難関単語,集中する,,concentrate/focus,concentrate on 〜（〜に集中する）。
+vocab_je,難関単語,〜を含む,,include/contain,include = 含む。including 〜（〜を含めて）
+vocab_je,難関単語,〜を増やす,,increase,increase = 増やす・増える。反対は decrease / reduce。
+vocab_je,難関単語,〜を決心する,,decide/determine,decide to 〜（〜しようと決心する）。decision（決心）
+vocab_je,難関単語,〜を輸入する,,import,import = 輸入する。im- = 中へ。
+vocab_je,難関単語,〜を輸出する,,export,export = 輸出する。ex- = 外へ。
+vocab_je,難関単語,知識,,knowledge,knowledge = 知識。数えられない名詞。k は発音しない。
+vocab_je,難関単語,文学,,literature,literature = 文学。literary（文学の）
+vocab_je,難関単語,法律,,law,law = 法律。lawyer（弁護士）
+vocab_je,難関単語,政府,,government,government = 政府。govern（統治する）。n を忘れないように。
+vocab_je,難関単語,〜を発展させる,,develop,develop = 発展させる・開発する。developing countries（発展途上国）
+vocab_je,難関単語,〜を生産する,,produce,produce = 生産する。product（製品）、production（生産）
+vocab_je,難関単語,人口,,population,population = 人口。「多い・少ない」は large / small で表す。
+vocab_je,難関単語,〜を勧める,,recommend,recommend = 勧める。recommendation（推薦）
+vocab_je,難関単語,〜を交換する,,exchange,exchange A for B（A を B と交換する）。exchange student（交換留学生）
+vocab_je,難関単語,〜を翻訳する,,translate,translate A into B（A を B に翻訳する）。translation（翻訳）
+vocab_je,難関単語,気候,,climate,climate = 気候（長期的）。weather は日々の天気。
+vocab_je,難関単語,〜を説得する,,persuade/convince,persuade 人 to 〜（人を説得して〜させる）。
+vocab_je,難関単語,〜を雇う,,employ/hire,employ = 雇う。employer（雇い主）、employee（従業員）
+vocab_je,難関単語,卒業する,,graduate,graduate from 〜（〜を卒業する）。graduation（卒業）
+vocab_je,難関単語,安全,,safety/security,safety = 安全。safe（安全な）
+vocab_je,難関単語,祭り,,festival,festival = 祭り。
